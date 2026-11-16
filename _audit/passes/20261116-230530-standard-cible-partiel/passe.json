@@ -1,0 +1,21 @@
+{
+ "id": "20261116-230530-standard-cible-partiel",
+ "date": "2026-11-16T23:11:17.851Z",
+ "niveau": "standard",
+ "pages": "/",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films",
+  "bords",
+  "mouvement",
+  "fluidite",
+  "parcours"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

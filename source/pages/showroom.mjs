@@ -31,7 +31,7 @@ export default (c) => html`
       <p data-anime>${c.t('showroom.rdv.texte')}</p>
       ${c.media({ nom: 'plan-terrazzo', alt: 'Plan de travail en terrazzo, évier inox et mur végétal', classe: 'rdv-media', sizes: '(max-width: 760px) 100vw, 36vw', attrs: 'data-fx="parallaxe"' })}
     </div>
-    <form class="rdv-form" data-formulaire data-rdv data-effet="rendez-vous" action="#" novalidate data-anime>
+    <form class="rdv-form" data-formulaire data-rdv data-effet="rendez-vous" data-grille="retour" action="#" novalidate data-anime>
       <div class="rdv-progres" aria-hidden="true"><span data-pastille></span><span data-pastille></span><span data-pastille></span></div>
       <p class="rdv-indic" data-etape-indic data-modele="${c.s('showroom.rdv.etape')}" aria-live="polite">${c.t('showroom.rdv.etape', { n: 1 })}</p>
       <fieldset class="rdv-etape" data-etape>
@@ -63,6 +63,13 @@ export default (c) => html`
         <p class="rdv-nav"><button type="button" class="bouton bouton--contour" data-precedent>${c.t('showroom.rdv.precedent')}</button><button type="submit" class="bouton">${c.t('showroom.rdv.envoyer')}</button></p>
         <p data-message-envoi data-texte="${c.s('showroom.rdv.envoye')}" role="status" tabindex="-1" hidden></p>
       </fieldset>
+      <div class="rdv-merci" data-merci data-modele="${c.s('showroom.rdv.merci')}" hidden>
+        <svg class="rdv-merci-coche" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="2.5" pathLength="1"/><path d="M19 33 L28 42 L46 23" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/></svg>
+        <p class="rdv-merci-titre" tabindex="-1" data-merci-titre></p>
+        <ul class="rdv-merci-recap" data-merci-recap></ul>
+        <p class="rdv-merci-texte">${c.t('showroom.rdv.merciTexte')}</p>
+        <p><button type="button" class="bouton bouton--contour" data-nouvelle>${c.t('showroom.rdv.nouvelle')}</button></p>
+      </div>
     </form>
   </div>
 </section>

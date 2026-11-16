@@ -47,4 +47,5 @@ Pages du site actuel non reprises, faute de contenu : Devenir partenaire, Espace
 - Générer les pages : `node outils/generer.mjs` (ne jamais modifier les pages HTML à la main).
 - Images : pipeline de la bibliothèque des maquettes (`plan-images.json`, `produire.mjs`, `partage.mjs`).
 - Modules repris de la bibliothèque : offre-a-tiroirs (prestations), objet-3d-qui-se-construit (îlot).
-- Audit : `node _audit/audit.mjs` (rapport dans `_audit/rapport/`).
+- Audit : `node _audit/audit.mjs` (rapport dans `_audit/rapport/`). Parcours propres au site dans `_audit/parcours.mjs` : filtres, visionneuse, tiroirs, porte du placard, rendez-vous, statut du dimanche.
+- Version en ligne : v2 (voir CHANGELOG.md).

@@ -86,7 +86,11 @@ function entete(c) {
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="${c.s('commun.menu')}">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">${c.t('commun.fermer')}</a></p>
   <ul>${navigation(c).map((k, i) => html`<li style="--i:${i}">${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
-  <p><a class="bouton" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a></p>
+  <div class="menu-infos">
+    <p class="statut" data-statut><i aria-hidden="true"></i><span data-statut-texte>${c.t('commun.statutDefaut')}</span></p>
+    <p class="menu-actions"><a class="bouton" href="${c.url('showroom', 'rendez-vous')}" data-libelle="${c.libelle('showroom')}">${c.t('commun.menuRdv')}</a><a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a></p>
+    <p class="menu-adresse">${c.site.contact.adresse}<br>${c.t('commun.horairesCourts')}</p>
+  </div>
   ${autreLangue.map((a) => html`<p><a class="entete-langue" href="${a.url}" hreflang="${a.l}" lang="${a.l}" data-langue="${a.l}">${c.s('commun.langueAutre')}</a></p>`)}
 </div>`;
 }

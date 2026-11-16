@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F0EA">
 <link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
@@ -106,7 +106,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/realisations" class="menu-lien" data-libelle="Réalisations">Réalisations</a></li><li style="--i:2"><a href="/savoir-faire" class="menu-lien" data-libelle="Savoir-faire">Savoir-faire</a></li><li style="--i:3"><a href="/accompagnement" class="menu-lien" data-libelle="L&#39;accompagnement">L&#39;accompagnement</a></li><li style="--i:4"><a href="/showroom" class="menu-lien" data-libelle="Showroom &amp; contact">Showroom &amp; contact</a></li></ul>
-  <p><a class="bouton" href="tel:+33428292969">Appeler 04 28 29 29 69</a></p>
+  <div class="menu-infos">
+    <p class="statut" data-statut><i aria-hidden="true"></i><span data-statut-texte>Showroom à Ternay, du lundi au samedi</span></p>
+    <p class="menu-actions"><a class="bouton" href="/showroom#rendez-vous" data-libelle="Showroom &amp; contact">Prendre rendez-vous</a><a class="bouton bouton--contour" href="tel:+33428292969">Appeler 04 28 29 29 69</a></p>
+    <p class="menu-adresse">27 route de Givors, 69360 Ternay<br>Du lundi au samedi, 10 h-12 h et 14 h-19 h</p>
+  </div>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv ouv--accueil" id="debut">
@@ -176,20 +180,20 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <div class="ofr__corps">
       <ol class="ofr__tiroirs" data-effet="tiroirs"><li class="ofr__tiroir" id="cuisine" data-sujet="cuisine">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">01</span><span class="ofr__nom">Cuisine sur mesure</span><span class="ofr__resume">Une vraie pièce à vivre</span><span class="ofr__prix">Sur devis</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">01</span><span class="ofr__nom">Cuisine sur mesure</span><span class="ofr__resume">Une vraie pièce à vivre</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          <figure class="media ofr__image" style="--cadrage:50% 50%">
+          <figure class="media ofr__image" style="--cadrage:30% 55%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cuisine-noire-arche-mobile-640.webp 640w, /assets/images/cuisine-noire-arche-mobile-1080.webp 1080w" sizes="(max-width: 960px) 90vw, 40vw">
-    <img src="/assets/images/cuisine-noire-arche-1280.webp" srcset="/assets/images/cuisine-noire-arche-640.webp 640w, /assets/images/cuisine-noire-arche-1280.webp 1280w, /assets/images/cuisine-noire-arche-1920.webp 1920w" sizes="(max-width: 960px) 90vw, 40vw" alt="Cuisine noir mat, colonne four et coin repas" width="1280" height="720" loading="lazy" decoding="async">
+    <img src="/assets/images/cuisine-noire-arche-1280.webp" srcset="/assets/images/cuisine-noire-arche-640.webp 640w, /assets/images/cuisine-noire-arche-1280.webp 1280w, /assets/images/cuisine-noire-arche-1920.webp 1920w" sizes="(max-width: 960px) 90vw, 40vw" alt="Cuisine noir mat, colonne four et coin repas devant une arche rose" width="1280" height="720" loading="lazy" decoding="async">
   </picture>
 </figure>
           <p>Des cuisines pensées comme de véritables pièces à vivre, où l&#39;esthétique rencontre la fonctionnalité.</p>
           <p class="actions"><a href="/showroom?projet=cuisine#rendez-vous" class="bouton bouton--petit" data-libelle="Showroom &amp; contact">En parler</a><a href="/savoir-faire#cuisine" class="lien-fleche" data-libelle="Savoir-faire">Voir ce savoir-faire</a></p>
         </div></div>
       </li><li class="ofr__tiroir" id="salle-de-bain" data-sujet="salle-de-bain">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">02</span><span class="ofr__nom">Salle de bain</span><span class="ofr__resume">Clé en main, un cocon de bien-être</span><span class="ofr__prix">Sur devis</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">02</span><span class="ofr__nom">Salle de bain</span><span class="ofr__resume">Clé en main, un cocon de bien-être</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          <figure class="media ofr__image" style="--cadrage:50% 50%">
+          <figure class="media ofr__image" style="--cadrage:45% 50%">
   <picture>
     <img src="/assets/images/bain-vasque-noire-1600.webp" srcset="/assets/images/bain-vasque-noire-480.webp 480w, /assets/images/bain-vasque-noire-960.webp 960w, /assets/images/bain-vasque-noire-1600.webp 1600w" sizes="(max-width: 960px) 90vw, 40vw" alt="Vasque noire, miroir rond lumineux et douche" width="1600" height="1066" loading="lazy" decoding="async">
   </picture>
@@ -198,9 +202,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p class="actions"><a href="/showroom?projet=salle-de-bain#rendez-vous" class="bouton bouton--petit" data-libelle="Showroom &amp; contact">En parler</a><a href="/savoir-faire#salle-de-bain" class="lien-fleche" data-libelle="Savoir-faire">Voir ce savoir-faire</a></p>
         </div></div>
       </li><li class="ofr__tiroir" id="dressing" data-sujet="dressing">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">03</span><span class="ofr__nom">Dressing intégré</span><span class="ofr__resume">Optimisation, élégance, discrétion</span><span class="ofr__prix">Sur devis</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">03</span><span class="ofr__nom">Dressing intégré</span><span class="ofr__resume">Optimisation, élégance, discrétion</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          <figure class="media ofr__image" style="--cadrage:50% 50%">
+          <figure class="media ofr__image" style="--cadrage:62% 50%">
   <picture>
     <img src="/assets/images/dressing-chambre-1600.webp" srcset="/assets/images/dressing-chambre-480.webp 480w, /assets/images/dressing-chambre-960.webp 960w, /assets/images/dressing-chambre-1600.webp 1600w" sizes="(max-width: 960px) 90vw, 40vw" alt="Chambre avec dressing intégré blanc du sol au plafond" width="1600" height="1066" loading="lazy" decoding="async">
   </picture>
@@ -209,9 +213,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p class="actions"><a href="/showroom?projet=dressing#rendez-vous" class="bouton bouton--petit" data-libelle="Showroom &amp; contact">En parler</a><a href="/savoir-faire#dressing" class="lien-fleche" data-libelle="Savoir-faire">Voir ce savoir-faire</a></p>
         </div></div>
       </li><li class="ofr__tiroir" id="renovation" data-sujet="renovation">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">04</span><span class="ofr__nom">Rénovation</span><span class="ofr__resume">Pilotée de A à Z</span><span class="ofr__prix">Sur devis</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">04</span><span class="ofr__nom">Rénovation</span><span class="ofr__resume">Pilotée de A à Z</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          <figure class="media ofr__image" style="--cadrage:50% 50%">
+          <figure class="media ofr__image" style="--cadrage:40% 55%">
   <picture>
     <img src="/assets/images/sejour-beton-1600.webp" srcset="/assets/images/sejour-beton-480.webp 480w, /assets/images/sejour-beton-960.webp 960w, /assets/images/sejour-beton-1600.webp 1600w" sizes="(max-width: 960px) 90vw, 40vw" alt="Séjour lumineux, mur effet béton et cuisine en fond" width="1600" height="1066" loading="lazy" decoding="async">
   </picture>
@@ -220,9 +224,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p class="actions"><a href="/showroom?projet=renovation#rendez-vous" class="bouton bouton--petit" data-libelle="Showroom &amp; contact">En parler</a><a href="/savoir-faire#renovation" class="lien-fleche" data-libelle="Savoir-faire">Voir ce savoir-faire</a></p>
         </div></div>
       </li><li class="ofr__tiroir" id="meuble-tv" data-sujet="meuble-tv">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">05</span><span class="ofr__nom">Meuble TV</span><span class="ofr__resume">Lignes épurées, rangements intégrés</span><span class="ofr__prix">Sur devis</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">05</span><span class="ofr__nom">Meuble TV</span><span class="ofr__resume">Lignes épurées, rangements intégrés</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          <figure class="media ofr__image" style="--cadrage:50% 50%">
+          <figure class="media ofr__image" style="--cadrage:22% 60%">
   <picture>
     <img src="/assets/images/meuble-tv-beton-1600.webp" srcset="/assets/images/meuble-tv-beton-480.webp 480w, /assets/images/meuble-tv-beton-960.webp 960w, /assets/images/meuble-tv-beton-1600.webp 1600w" sizes="(max-width: 960px) 90vw, 40vw" alt="Long meuble TV noir sous un mur effet béton" width="1600" height="1067" loading="lazy" decoding="async">
   </picture>
@@ -309,7 +313,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </picture>
 </figure><span class="mosaique-legende" aria-hidden="true">Douche à l&#39;italienne</span></a>
     </li></ul>
-    <p class="pieces" data-anime="cascade"><a href="/realisations?piece=cuisines" class="puce" data-libelle="Réalisations">Cuisines</a><a href="/realisations?piece=bains" class="puce" data-libelle="Réalisations">Salles de bain</a><a href="/realisations?piece=dressings" class="puce" data-libelle="Réalisations">Dressings et rangements</a><a href="/realisations?piece=sejours" class="puce" data-libelle="Réalisations">Séjours et meubles TV</a><a href="/realisations" class="bouton bouton--contour" data-libelle="Réalisations">Voir toutes les réalisations</a></p>
+    <p class="pieces" data-anime="cascade"><a href="/realisations?piece=cuisines" class="puce" data-libelle="Réalisations">Cuisines</a><a href="/realisations?piece=bains" class="puce" data-libelle="Réalisations">Salles de bain</a><a href="/realisations?piece=dressings" class="puce" data-libelle="Réalisations">Dressings</a><a href="/realisations?piece=sejours" class="puce" data-libelle="Réalisations">Séjours et TV</a><a href="/realisations" class="bouton bouton--contour" data-libelle="Réalisations">Voir toutes les réalisations</a></p>
   </div>
 </section>
 <section class="garantie sombre" id="garantie">
@@ -320,13 +324,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="garantie-phrase" data-anime>Tous nos meubles sont garantis 10 ans.</p>
       <p data-anime>Une vision 360° de votre projet, un budget adapté sans sacrifier l&#39;essentiel, et votre satisfaction garantie jusqu&#39;à l&#39;achèvement.</p>
     </div>
-    <div class="placard" data-effet="charniere">
+    <div class="placard" data-effet="charniere" data-grille="manipuler">
       <figure class="media placard-media" data-grok style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/grok/charniere-1280.webp" srcset="/assets/images/grok/charniere-640.webp 640w, /assets/images/grok/charniere-1280.webp 1280w, /assets/images/grok/charniere-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 46vw" alt="Charnière d’une porte de placard laquée noire entrouverte" width="1280" height="853" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-      <span class="placard-porte" aria-hidden="true"><i></i></span>
+      <button type="button" class="placard-porte" data-porte aria-pressed="false" aria-label="Ouvrir ou fermer le placard"><i></i><span class="placard-indice" aria-hidden="true">Touchez la porte</span></button>
     </div>
   </div>
 </section>
@@ -354,20 +358,6 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <li class="choix-carte choix-carte--prefere"><p class="choix-titre">Au showroom</p><p>27 route de Givors à Ternay, autour d&#39;un café.</p><a href="/showroom?mode=showroom#rendez-vous" class="lien-fleche" data-libelle="Showroom &amp; contact">Prendre rendez-vous</a></li>
       <li class="choix-carte"><p class="choix-titre">Par écrit</p><p>Décrivez votre projet, nous revenons vers vous.</p><a href="/showroom#rendez-vous" class="lien-fleche" data-libelle="Showroom &amp; contact">Décrire mon projet</a></li>
     </ul>
-  </div>
-</section>
-<section class="fin" id="fin">
-  <div class="conteneur fin-grille">
-    <div class="fin-texte">
-      <h2 data-anime="lignes">Beaux, et <em>bien posés</em></h2>
-      <p data-anime>Sur-mesure, bien pensé, et toujours avec le sourire !</p>
-      <p class="actions" data-anime><a href="/showroom#rendez-vous" class="bouton" data-libelle="Showroom &amp; contact" data-survol="magnetique">Prendre rendez-vous</a><a href="/realisations" class="bouton bouton--contour" data-libelle="Réalisations">Voir les réalisations</a></p>
-    </div>
-    <figure class="media fin-media" data-anime="rideau" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/meuble-tv-suspendu-1600.webp" srcset="/assets/images/meuble-tv-suspendu-480.webp 480w, /assets/images/meuble-tv-suspendu-960.webp 960w, /assets/images/meuble-tv-suspendu-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 44vw" alt="Meuble TV suspendu noir devant une arche rose" width="1600" height="1066" loading="lazy" decoding="async">
-  </picture>
-</figure>
   </div>
 </section>
 </main>

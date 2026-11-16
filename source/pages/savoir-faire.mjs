@@ -28,7 +28,7 @@ export default (c) => {
 ${c.donnees.prestations.map((p, i) => html`<section class="piece ${i % 2 ? 'piece--inverse' : ''}" id="${p.id}" aria-labelledby="t-${p.id}">
   <div class="conteneur piece-grille">
     <div class="piece-images">
-      ${c.media({ nom: p.image, alt: p.imageAlt, classe: 'piece-media piece-media--grand', sizes: '(max-width: 760px) 100vw, 46vw', attrs: 'data-anime="rideau"' })}
+      ${c.media({ nom: p.image, alt: p.imageAlt, cadrage: p.cadrage, classe: 'piece-media piece-media--grand', sizes: '(max-width: 760px) 100vw, 46vw', attrs: 'data-anime="rideau"' })}
       ${p.images.map((id, k) => c.media({ nom: id, alt: real[id].alt, classe: 'piece-media piece-media--petit piece-media--' + (k + 1) + (p.images.length === 1 ? ' piece-media--large' : ''), sizes: '(max-width: 760px) 50vw, 22vw', attrs: 'data-fx="parallaxe" data-fx-force="' + (10 + k * 6) + '"' }))}
     </div>
     <div class="piece-texte">
@@ -36,7 +36,7 @@ ${c.donnees.prestations.map((p, i) => html`<section class="piece ${i % 2 ? 'piec
       <h2 id="t-${p.id}" data-anime="lignes">${p.nom}</h2>
       <p class="piece-resume" data-anime>${p.resume}</p>
       <p data-anime>${p.texte}</p>
-      <p class="actions" data-anime>${c.lien('showroom', { ancre: 'rendez-vous', params: 'projet=' + p.id, classe: 'bouton bouton--contour', texte: c.t('savoirFaire.parler') })}</p>
+      <p class="actions" data-anime>${c.lien('showroom', { ancre: 'rendez-vous', params: 'projet=' + p.id, classe: 'bouton bouton--contour', texte: c.t('savoirFaire.parler') })}${c.lien('realisations', { params: 'piece=' + p.piece, classe: 'lien-fleche', texte: c.t('savoirFaire.photos') })}</p>
     </div>
   </div>
 </section>`)}

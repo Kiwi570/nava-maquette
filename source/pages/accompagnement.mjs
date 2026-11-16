@@ -68,7 +68,7 @@ export default (c) => html`
     </div>
     <div class="placard" data-effet="charniere">
       ${c.media({ nom: 'grok/charniere', alt: 'Charnière d’une porte de placard laquée noire entrouverte', classe: 'placard-media', sizes: '(max-width: 760px) 90vw, 46vw' })}
-      <span class="placard-porte" aria-hidden="true"><i></i></span>
+      <button type="button" class="placard-porte" data-porte aria-pressed="false" aria-label="${c.s('accueil.garantie.porte')}"><i></i><span class="placard-indice" aria-hidden="true">${c.t('accueil.garantie.porteIndice')}</span></button>
     </div>
   </div>
 </section>

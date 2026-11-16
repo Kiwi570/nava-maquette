@@ -1,8 +1,8 @@
-/* Accueil NAVA, direction « Façades » : intro des façades qui s'ouvrent, sceau de garantie (objet d'ouverture),
+/* Accueil NAVA, direction « Façades » : intro des façades qui s'ouvrent, sceau de garantie (objet d'ouverture) qui tourne,
    presse et chiffres, prestations en tiroirs, citation, îlot 3D qui se monte avec les étapes, mosaïque des réalisations,
-   garantie et porte qui s'entrouvre, showroom (cadran des horaires), appel final. */
+   garantie et porte de placard (au défilement et à la main), showroom : cadran des horaires et trois façons de se parler (appel final). */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { titre, statut, cadran, fin, ilot, etapes } from '../gabarits/composants.mjs';
+import { titre, statut, cadran, ilot, etapes } from '../gabarits/composants.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'cuisine-ilot-blanc-1280.webp' };
 
@@ -62,9 +62,9 @@ export default (c) => {
     </div>
     <div class="ofr__corps">
       <ol class="ofr__tiroirs" data-effet="tiroirs">${c.donnees.prestations.map((p) => html`<li class="ofr__tiroir" id="${p.id}" data-sujet="${p.id}">
-        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">${p.num}</span><span class="ofr__nom">${p.nom}</span><span class="ofr__resume">${p.resume}</span><span class="ofr__prix">${c.t('accueil.prestations.prix')}</span></button></h3>
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">${p.num}</span><span class="ofr__nom">${p.nom}</span><span class="ofr__resume">${p.resume}</span></button></h3>
         <div class="ofr__contenu"><div class="ofr__interieur">
-          ${c.media({ nom: p.image, alt: p.imageAlt, classe: 'ofr__image', sizes: '(max-width: 960px) 90vw, 40vw' })}
+          ${c.media({ nom: p.image, alt: p.imageAlt, cadrage: p.cadrage, classe: 'ofr__image', sizes: '(max-width: 960px) 90vw, 40vw' })}
           <p>${p.texte}</p>
           <p class="actions">${c.lien('showroom', { ancre: 'rendez-vous', params: 'projet=' + p.id, classe: 'bouton bouton--petit', texte: c.t('accueil.prestations.parler') })}${c.lien('savoir-faire', { ancre: p.id, classe: 'lien-fleche', texte: c.t('accueil.prestations.voir') })}</p>
         </div></div>
@@ -124,9 +124,9 @@ export default (c) => {
       <p class="garantie-phrase" data-anime>${c.t('accueil.garantie.texte')}</p>
       <p data-anime>${c.t('accueil.garantie.engagements')}</p>
     </div>
-    <div class="placard" data-effet="charniere">
+    <div class="placard" data-effet="charniere" data-grille="manipuler">
       ${c.media({ nom: 'grok/charniere', alt: 'Charnière d’une porte de placard laquée noire entrouverte', classe: 'placard-media', sizes: '(max-width: 760px) 90vw, 46vw' })}
-      <span class="placard-porte" aria-hidden="true"><i></i></span>
+      <button type="button" class="placard-porte" data-porte aria-pressed="false" aria-label="${c.s('accueil.garantie.porte')}"><i></i><span class="placard-indice" aria-hidden="true">${c.t('accueil.garantie.porteIndice')}</span></button>
     </div>
   </div>
 </section>
@@ -148,10 +148,6 @@ export default (c) => {
   </div>
 </section>
 
-${fin(c, {
-  titreCle: 'accueil.fin.titre', accent: true, texteCle: 'accueil.fin.texte', image: 'meuble-tv-suspendu', alt: real['meuble-tv-suspendu'].alt,
-  action: c.lien('showroom', { ancre: 'rendez-vous', classe: 'bouton', texte: c.t('accueil.fin.rdv'), attrs: 'data-survol="magnetique"' }),
-  secondaire: c.lien('realisations', { classe: 'bouton bouton--contour', texte: c.t('accueil.fin.realisations') }),
-})}
+
 `;
 };

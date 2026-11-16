@@ -2,7 +2,7 @@
    les mesures et la bibliothèque d'effets (lignes, mots, cascade, rideau, parallaxe…), posés par attributs dans les pages.
    Effets du plan, marqués data-effet : facades (intro), sceau, tiroirs (module offre-a-tiroirs), ilot-3d (module
    objet-3d-qui-se-construit), mosaique, charniere, cadran, frise, filtres, rendez-vous. */
-import { demarrer, versObjet, quand, rafraichir } from './socle/index.js?v=1';
+import { demarrer, versObjet, quand, rafraichir, boucle, aller } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -59,7 +59,25 @@ function cadrans() {
 function sceau() {
   const a = $('.sceau-anneau');
   if (!a || !gsap || !window.ScrollTrigger) return;
-  gsap.to(a, { rotation: 140, ease: 'none', scrollTrigger: { trigger: '.ouv--accueil', start: 'top top', end: 'bottom top', scrub: 0.6 } });
+  /* Rotation propre (lente, 48 s par tour, seulement à l'écran) et rotation du défilement, additionnées. */
+  const etat = { propre: 0, defile: 0 };
+  const poser = () => gsap.set(a, { rotation: etat.propre + etat.defile });
+  ScrollTrigger.create({ trigger: '.ouv--accueil', start: 'top top', end: 'bottom top', scrub: 0.6, onUpdate: (s) => { etat.defile = s.progress * 140; poser(); } });
+  boucle(a, (dt) => { etat.propre = (etat.propre + dt * 7.5) % 360; poser(); });
+}
+
+/* ---------- Accueil : la cuisine respire lentement après l'intro (zoom de 6 % en 9 s, aller-retour), seulement à l'écran ---------- */
+function respiration() {
+  const img = $('.ouv--accueil .ouv-media img');
+  if (!img || !gsap || !window.ScrollTrigger) return;
+  let tw = null;
+  const lancer = () => {
+    if (tw) return;
+    tw = gsap.fromTo(img, { scale: 1 }, { scale: 1.06, duration: 9, ease: 'sine.inOut', yoyo: true, repeat: -1, paused: true });
+    ScrollTrigger.create({ trigger: '.ouv--accueil', start: 'top bottom', end: 'bottom top', onToggle: (s) => (s.isActive ? tw.play() : tw.pause()) });
+    if (img.getBoundingClientRect().bottom > 0) tw.play();
+  };
+  quand('pret', () => setTimeout(lancer, 1600));
 }
 
 /* ---------- Tiroirs : module offre-a-tiroirs de la bibliothèque, branché sur le socle du projet ---------- */
@@ -123,7 +141,7 @@ function tiroirs() {
 function ilot() {
   const root = $('.o3d');
   if (!root || !gsap || !window.ScrollTrigger) return;
-  const o = { longueur: 1.7, depart: -34, tour: 360, inclinaison: -24, lumiere: -35, largeur: 640, hauteur: 380, largeurMin: 900, hauteurMin: 600 };
+  const o = { longueur: 1.4, depart: -34, tour: 360, inclinaison: -24, lumiere: -35, largeur: 560, hauteur: 340, largeurMin: 900, hauteurMin: 600 };
   const scene = $('.o3d__scene', root), objet = $('.o3d__objet', root);
   const pieces = $$('.o3d__piece', root), etapes = $$('.o3d__etapes [data-de]', root);
   let k = 1;
@@ -199,7 +217,19 @@ function charniere() {
   $$('.placard').forEach((p) => {
     const porte = p.querySelector('.placard-porte');
     if (!porte || !gsap || !window.ScrollTrigger) return;
-    gsap.fromTo(porte, { rotationY: 0 }, { rotationY: -84, ease: 'none', scrollTrigger: { trigger: p, start: 'top 80%', end: 'top 20%', scrub: 0.6 } });
+    /* Au défilement, la porte s'entrouvre (rotation de base) ; un toucher la ferme ou l'ouvre en grand, avec un rebond. */
+    const etat = { base: 0, main: 0 };
+    let ouverte = null;
+    const poser = () => gsap.set(porte, { rotationY: Math.max(-112, Math.min(0, etat.base + etat.main)) });
+    ScrollTrigger.create({ trigger: p, start: 'top 80%', end: 'top 20%', scrub: 0.6, onUpdate: (s) => { etat.base = -84 * s.progress; if (ouverte === null) poser(); } });
+    porte.addEventListener('click', () => {
+      const base = etat.base;
+      ouverte = ouverte === null ? base > -42 : !ouverte;
+      const cible = ouverte ? -110 : 0;
+      gsap.to(etat, { main: cible - base, duration: ouverte ? 1.1 : 0.8, ease: ouverte ? 'elastic.out(1, .55)' : 'power3.out', onUpdate: () => { etat.base = base; poser(); } });
+      porte.setAttribute('aria-pressed', ouverte ? 'true' : 'false');
+      p.classList.add('placard--touche');
+    });
   });
 }
 
@@ -266,6 +296,8 @@ function realisations() {
   dlg.addEventListener('pointerup', (e) => { if (x0 !== null && Math.abs(e.clientX - x0) > 50) pas(e.clientX < x0 ? 1 : -1); x0 = null; });
   const parAncre = items.find((it) => location.hash === '#' + it.id);
   if (parAncre) quand('pret', () => ouvrir(parAncre));
+  /* Lien vers une photo depuis la page elle-même (changement d'ancre) : elle s'ouvre aussi. */
+  window.addEventListener('hashchange', () => { const it = items.find((x) => location.hash === '#' + x.id); if (it && !dlg.open) ouvrir(it); });
 }
 
 /* ---------- Rendez-vous en trois étapes (formulaire simulé du socle) ---------- */
@@ -299,6 +331,36 @@ function rendezVous() {
     return true;
   };
   $$('[data-suivant]', f).forEach((b) => b.addEventListener('click', () => { if (valide(n)) montrer(Math.min(n + 1, etapesF.length - 1)); }));
+  /* Envoi accepté (le socle a vérifié les champs et montré son message) : le formulaire se range, la confirmation apparaît. */
+  const merci = $('[data-merci]', f);
+  f.addEventListener('submit', () => setTimeout(() => {
+    const msg = f.querySelector('[data-message-envoi]');
+    if (!merci || !msg || msg.hidden) return;
+    $('[data-merci-titre]', merci).textContent = merci.dataset.modele.replace('{prenom}', (f.querySelector('#f-prenom').value || '').trim());
+    $('[data-merci-recap]', merci).innerHTML = ['projet', 'mode', 'moment'].map(libelle).filter(Boolean).map((t) => `<li>${t}</li>`).join('');
+    const partir = [...etapesF, $('.rdv-progres', f), indic].filter(Boolean);
+    const fin = () => {
+      partir.forEach((e) => { e.hidden = true; });
+      merci.hidden = false;
+      $('[data-merci-titre]', merci).focus({ preventScroll: true });
+      if (f.getBoundingClientRect().top < 0) aller(f);
+      if (gsap) {
+        gsap.fromTo(merci, { rotationX: -70, opacity: 0, transformOrigin: '50% 0%' }, { rotationX: 0, opacity: 1, duration: 0.8, ease: 'back.out(1.4)', clearProps: 'transform' });
+        gsap.fromTo(merci.querySelectorAll('.rdv-merci-coche circle, .rdv-merci-coche path'), { strokeDasharray: '1 1', strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.7, stagger: 0.25, delay: 0.25, ease: 'power2.out' });
+      }
+      rafraichir();
+    };
+    if (gsap) gsap.to(partir, { y: -12, opacity: 0, duration: 0.3, stagger: 0.04, onComplete: () => { gsap.set(partir, { clearProps: 'transform,opacity' }); fin(); } });
+    else fin();
+  }, 0));
+  $('[data-nouvelle]', f)?.addEventListener('click', () => {
+    f.reset();
+    merci.hidden = true;
+    [...etapesF, $('.rdv-progres', f), indic].filter(Boolean).forEach((e) => { e.hidden = false; });
+    const msg = f.querySelector('[data-message-envoi]'); if (msg) msg.hidden = true;
+    const envoi = f.querySelector('[type="submit"]'); if (envoi) { envoi.disabled = false; envoi.removeAttribute('aria-disabled'); }
+    montrer(0);
+  });
   $$('[data-precedent]', f).forEach((b) => b.addEventListener('click', () => montrer(Math.max(0, n - 1))));
   if (params.get('projet') || params.get('mode')) { /* choix déjà fait par le bouton d'origine : on reste sur la première étape, cochée */ }
   montrer(0, false);
@@ -340,6 +402,7 @@ demarrer({
     mosaique();
     charniere();
     sceau();
+    respiration();
     cadrans();
     realisations();
     rendezVous();

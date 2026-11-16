@@ -12,10 +12,10 @@ export default (c) => {
 <section class="ouv ouv--plein sombre" id="debut">
   ${c.media({ nom: 'cuisine-noire-arche', alt: 'Cuisine noir mat, colonne four et coin repas devant une arche rose', cadrage: '62% 50%', cadrageMobile: '22% 50%', priorite: true, classe: 'ouv-plein-media', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="8" data-iris-centre' })}
   <div class="ouv-plein-texte conteneur">
-    <p class="surtitre" data-anime="gsap">${c.t('accueil.realisations.surtitre')}</p>
+    <p class="surtitre" data-anime="gsap">${c.t('realisations.surtitre')}</p>
     <h1 class="ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">${c.t('realisations.titre')}</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>${c.t('realisations.titreAccent')}</em></span></span></h1>
     <p class="ouv-intro masque-ecran-tres-bas" data-anime="gsap">${c.t('realisations.texte')}</p>
-    <p class="actions" data-anime="gsap"><a class="bouton" href="#galerie" data-action-principale data-sans-transition>${c.t('realisations.compte', { n: liste.length })}</a>${c.lien('showroom', { ancre: 'rendez-vous', classe: 'lien-fleche', texte: c.t('realisations.action') })}</p>
+    <p class="actions" data-anime="gsap"><a class="bouton" href="#galerie" data-action-principale data-sans-transition>${c.t('realisations.voir', { n: liste.length })}</a>${c.lien('showroom', { ancre: 'rendez-vous', classe: 'lien-fleche', texte: c.t('realisations.action') })}</p>
     <p class="info-cle" data-anime="gsap" data-info-cle>${c.t('realisations.info')}</p>
   </div>
 </section>

@@ -1,15 +1,16 @@
 {
- "id": "20261116-190455-standard-cible-partiel",
- "date": "2026-11-16T19:05:15.780Z",
+ "id": "20261116-231139-standard-cible-partiel",
+ "date": "2026-11-16T23:12:34.525Z",
  "niveau": "standard",
- "pages": "/showroom",
+ "pages": "/realisations",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mesures",
+  "films"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 1,
+ "aRegarder": 4,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

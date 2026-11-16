@@ -5,13 +5,15 @@
   "nom": "Cuisine sur mesure",
   "resume": "Une vraie pièce à vivre",
   "image": "cuisine-noire-arche",
-  "imageAlt": "Cuisine noir mat, colonne four et coin repas",
+  "imageAlt": "Cuisine noir mat, colonne four et coin repas devant une arche rose",
   "texte": "Des cuisines pensées comme de véritables pièces à vivre, où l'esthétique rencontre la fonctionnalité.",
   "images": [
    "cuisine-ilot-blanc",
    "plan-terrazzo"
   ],
-  "facade": "evier-noir"
+  "facade": "evier-noir",
+  "cadrage": "30% 55%",
+  "piece": "cuisines"
  },
  {
   "id": "salle-de-bain",
@@ -25,7 +27,9 @@
    "bain-miroir-rond",
    "bain-double-miroir"
   ],
-  "facade": "douche-italienne"
+  "facade": "douche-italienne",
+  "cadrage": "45% 50%",
+  "piece": "bains"
  },
  {
   "id": "dressing",
@@ -38,7 +42,9 @@
   "images": [
    "dressing-niche-chene"
   ],
-  "facade": "entree-claustra"
+  "facade": "entree-claustra",
+  "cadrage": "62% 50%",
+  "piece": "dressings"
  },
  {
   "id": "renovation",
@@ -52,7 +58,9 @@
    "sejour-repas",
    "cuisine-grise"
   ],
-  "facade": "sejour-cuisine"
+  "facade": "sejour-cuisine",
+  "cadrage": "40% 55%",
+  "piece": "sejours"
  },
  {
   "id": "meuble-tv",
@@ -65,6 +73,8 @@
   "images": [
    "meuble-tv-suspendu"
   ],
-  "facade": "meuble-tv-claustra"
+  "facade": "meuble-tv-claustra",
+  "cadrage": "22% 60%",
+  "piece": "sejours"
  }
 ]

@@ -103,6 +103,65 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Deux images Grok écartées (faux showroom, salon agencé) et remplacées sans régénération. favoris.json absent du dépôt GitHub de la bibliothèque : recréé localement avec les 7 favorites citées dans la skill."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "realisations",
+        "savoir-faire",
+        "accompagnement",
+        "showroom",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète de la v1 en ligne",
+          "budget": 20,
+          "debut": "2026-11-16T23:20:00+01:00",
+          "fin": "2026-11-16T23:24:00+01:00"
+        },
+        {
+          "etape": "améliorations",
+          "budget": 40,
+          "debut": "2026-11-16T23:24:00+01:00",
+          "fin": "2026-11-16T23:27:53+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 50,
+          "debut": "2026-11-16T23:27:53+01:00",
+          "fin": "2026-11-16T23:12:45.732Z"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-16T23:12:45.732Z",
+          "fin": "2026-11-16T23:12:45.732Z"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "offre-a-tiroirs",
+        "objet-3d-qui-se-construit"
+      ],
+      "audit": {
+        "niveau": "complet (13 tailles, tous les modes, toutes les pages) puis relances ciblées",
+        "echecsPremierPassage": 4,
+        "relances": 4,
+        "corrections": [
+          "image nette dans la colonne des tiroirs (plan en terrazzo trop petit en grand)",
+          "lien de la mosaïque vers une photo absente de la galerie",
+          "lien vers une photo depuis la galerie elle-même (changement d’ancre)",
+          "photo de l’accueil qui respire lentement",
+          "fond sombre sous l’ouverture des réalisations"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l’utilisateur : audit complet et analyse approfondie, version optimale."
     }
   ]
 }

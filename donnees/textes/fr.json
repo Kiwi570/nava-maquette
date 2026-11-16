@@ -26,7 +26,8 @@
     "itineraire": "Ouvrir l'itinéraire",
     "nouvelOnglet": "(nouvel onglet)",
     "statutDefaut": "Showroom à Ternay, du lundi au samedi",
-    "actionCourte": "Rendez-vous"
+    "actionCourte": "Rendez-vous",
+    "menuRdv": "Prendre rendez-vous"
   },
   "pages": {
     "accueil": {
@@ -135,7 +136,9 @@
       "chiffre": "10",
       "titre": "ans de garantie",
       "texte": "Tous nos meubles sont garantis 10 ans.",
-      "engagements": "Une vision 360° de votre projet, un budget adapté sans sacrifier l'essentiel, et votre satisfaction garantie jusqu'à l'achèvement."
+      "engagements": "Une vision 360° de votre projet, un budget adapté sans sacrifier l'essentiel, et votre satisfaction garantie jusqu'à l'achèvement.",
+      "porte": "Ouvrir ou fermer le placard",
+      "porteIndice": "Touchez la porte"
     },
     "showroom": {
       "surtitre": "Trois choix, un projet en commun",
@@ -170,8 +173,8 @@
     "toutes": "Toutes",
     "cuisines": "Cuisines",
     "bains": "Salles de bain",
-    "dressings": "Dressings et rangements",
-    "sejours": "Séjours et meubles TV",
+    "dressings": "Dressings",
+    "sejours": "Séjours et TV",
     "compte": "{n} photos",
     "ouvrir": "Agrandir : {t}",
     "precedente": "Photo précédente",
@@ -181,7 +184,9 @@
     "fin": "Un projet vous ressemble ?",
     "finTexte": "Venez en parler au showroom : on regarde vos envies, vos contraintes et votre budget.",
     "finAction": "Prendre rendez-vous",
-    "finSecondaire": "Nos savoir-faire"
+    "finSecondaire": "Nos savoir-faire",
+    "voir": "Voir les {n} photos",
+    "surtitre": "La galerie"
   },
   "savoirFaire": {
     "surtitre": "Savoir-faire",
@@ -201,7 +206,8 @@
     },
     "fin": "Une pièce à repenser ?",
     "finTexte": "Chaque projet commence par une rencontre au showroom.",
-    "finAction": "Prendre rendez-vous"
+    "finAction": "Prendre rendez-vous",
+    "photos": "Voir les photos"
   },
   "accompagnement": {
     "titre": "De l'idée",
@@ -288,7 +294,10 @@
       "modifier": "Modifier",
       "donnees": "Vos coordonnées servent uniquement à vous recontacter au sujet de votre projet. <a href=\"#confidentialite\">Politique de confidentialité</a> (à compléter).",
       "envoye": "Demande simulée : rien n'a été envoyé. Sur le site final, elle arrivera directement chez NAVA.",
-      "choisir": "Choisissez une réponse."
+      "choisir": "Choisissez une réponse.",
+      "merci": "Merci {prenom}, votre demande est prête",
+      "merciTexte": "Sur le site final, elle arrivera directement chez NAVA, qui vous rappellera pour fixer le rendez-vous. Ici, rien n’a été envoyé : c’est une maquette.",
+      "nouvelle": "Faire une autre demande"
     },
     "acces": {
       "surtitre": "Accès",
