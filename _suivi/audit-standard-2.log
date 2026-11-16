@@ -1,0 +1,41 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 31 s
+… mesures
+  20/66
+  42/66
+  64/66
+  fait en 95 s
+… mesures:balayage
+  fait en 29 s
+… films
+  fait en 133 s
+… bords
+  fait en 62 s
+… parcours:intro
+  fait en 56 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 128 s
+… parcours:hauteur
+  fait en 45 s
+… parcours:projet
+  fait en 0 s
+… ecran
+  fait en 13 s
+… fluidite
+  fait en 176 s
+… mouvement
+  fait en 130 s
+… vitesse
+  fait en 18 s
+… captures
+  fait en 132 s
+… safari
+  fait en 0 s
+
+Échecs : 19 · À regarder : 10 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/savoir-faire,/showroom --seulement=fichiers,mesures,parcours
+Rapport : /home/claude/nava/_audit/rapport/rapport.md (passe 20261116-183452-standard)

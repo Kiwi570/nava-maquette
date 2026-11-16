@@ -1,0 +1,43 @@
+{
+  "nom": "NAVA",
+  "nomComplet": "NAVA · By Faure Agencement",
+  "adresse": "https://nava-maquette.vercel.app",
+  "siteActuel": "www.nava.fr",
+  "version": 1,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "realisations",
+    "savoir-faire",
+    "accompagnement",
+    "showroom"
+  ],
+  "actionEntete": {
+    "page": "showroom",
+    "ancre": "rendez-vous"
+  },
+  "couleurs": {
+    "fond": "#F4F0EA",
+    "texte": "#1A1816",
+    "voile": "#1A1816",
+    "ouverture": "#ECE5DA",
+    "menu": "#F4F0EA",
+    "theme": "#F4F0EA"
+  },
+  "formeVoile": "rideau",
+  "contact": {
+    "telephone": "04 28 29 29 69",
+    "telephoneLien": "+33428292969",
+    "adresse": "27 route de Givors, 69360 Ternay",
+    "itineraire": "https://www.google.com/maps/search/?api=1&query=NAVA+27+Route+de+Givors+69360+Ternay",
+    "instagram": "https://www.instagram.com/nava_france/"
+  },
+  "polices": [
+    "/assets/fonts/instrument-serif-latin-400-normal.woff2",
+    "/assets/fonts/manrope-latin-400-normal.woff2"
+  ],
+  "imagePartage": "cuisine-ilot-blanc-1280.webp",
+  "curseur": false
+}

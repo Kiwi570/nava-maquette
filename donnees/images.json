@@ -1,0 +1,2166 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "assets/images/logo-nava.png",
+    "role": "logo",
+    "alt": "NAVA by Faure Agencement",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "f1387d93c129a0db",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 5362,
+      "logo-480.webp": 12734
+    },
+    "media": "c.media({ nom: 'logo', alt: \"NAVA by Faure Agencement\", sizes: '240px' })"
+  },
+  "presse-forbes": {
+    "nom": "presse-forbes",
+    "source": "recu/ils-parlent-nous-2.png",
+    "role": "logo",
+    "alt": "Forbes",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "c345e8d1a13b7f72",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "presse-forbes-240.webp",
+      "presse-forbes-480.webp"
+    ],
+    "poids": {
+      "presse-forbes-240.webp": 2126,
+      "presse-forbes-480.webp": 3624
+    },
+    "media": "c.media({ nom: 'presse-forbes', alt: \"Forbes\", sizes: '240px' })"
+  },
+  "presse-lyon-people": {
+    "nom": "presse-lyon-people",
+    "source": "recu/logo-sombre.jpg",
+    "role": "logo",
+    "alt": "Lyon People",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "440200b39e16ba90",
+    "ratio": null,
+    "largeurs": [],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [],
+    "poids": {},
+    "media": "c.media({ nom: 'presse-lyon-people', alt: \"Lyon People\", sizes: '240px' })"
+  },
+  "presse-lyon-capitale": {
+    "nom": "presse-lyon-capitale",
+    "source": "recu/ils-parlent-nous-3.png",
+    "role": "logo",
+    "alt": "Lyon Capitale",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "15dc684d7b6e775a",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "presse-lyon-capitale-240.webp",
+      "presse-lyon-capitale-480.webp"
+    ],
+    "poids": {
+      "presse-lyon-capitale-240.webp": 9728,
+      "presse-lyon-capitale-480.webp": 18408
+    },
+    "media": "c.media({ nom: 'presse-lyon-capitale', alt: \"Lyon Capitale\", sizes: '240px' })"
+  },
+  "cuisine-ilot-blanc": {
+    "nom": "cuisine-ilot-blanc",
+    "source": "recu/cuisiniste-mesure.jpg",
+    "role": "ouverture",
+    "alt": "Cuisine blanche à îlot, plan en bois foncé et crédence assortie",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f1984f8098f9d0d2",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "58% 50%",
+    "sujet": {
+      "x": 36.8,
+      "y": 36,
+      "l": 42.6,
+      "h": 27.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 144,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cuisine-ilot-blanc-640.webp",
+      "cuisine-ilot-blanc-1280.webp",
+      "cuisine-ilot-blanc-1920.webp",
+      "cuisine-ilot-blanc-mobile-640.webp",
+      "cuisine-ilot-blanc-mobile-1080.webp"
+    ],
+    "poids": {
+      "cuisine-ilot-blanc-640.webp": 13572,
+      "cuisine-ilot-blanc-1280.webp": 36270,
+      "cuisine-ilot-blanc-1920.webp": 65330,
+      "cuisine-ilot-blanc-mobile-640.webp": 27868,
+      "cuisine-ilot-blanc-mobile-1080.webp": 50644
+    },
+    "media": "c.media({ nom: 'cuisine-ilot-blanc', alt: \"Cuisine blanche à îlot, plan en bois foncé et crédence assortie\", cadrage: '58% 50%', cadrageMobile: '50% 53%', sizes: '100vw', priorite: true })"
+  },
+  "cuisine-noire-arche": {
+    "nom": "cuisine-noire-arche",
+    "source": "recu/savoir-faire-images-11.jpg",
+    "role": "ouverture",
+    "alt": "Cuisine noir mat, colonne four et coin repas devant une arche rose",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fe3d83d5d5ce3486",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 51%"
+    },
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 23.5,
+      "y": 26.2,
+      "l": 57.4,
+      "h": 47
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 117,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cuisine-noire-arche-640.webp",
+      "cuisine-noire-arche-1280.webp",
+      "cuisine-noire-arche-1920.webp",
+      "cuisine-noire-arche-mobile-640.webp",
+      "cuisine-noire-arche-mobile-1080.webp"
+    ],
+    "poids": {
+      "cuisine-noire-arche-640.webp": 10388,
+      "cuisine-noire-arche-1280.webp": 27030,
+      "cuisine-noire-arche-1920.webp": 49132,
+      "cuisine-noire-arche-mobile-640.webp": 15948,
+      "cuisine-noire-arche-mobile-1080.webp": 31094
+    },
+    "media": "c.media({ nom: 'cuisine-noire-arche', alt: \"Cuisine noir mat, colonne four et coin repas devant une arche rose\", cadrage: '49% 50%', cadrageMobile: '50% 51%', sizes: '100vw', priorite: true })"
+  },
+  "sejour-cuisine": {
+    "nom": "sejour-cuisine",
+    "source": "recu/savoir-faire-images-9.jpg",
+    "role": "ouverture",
+    "alt": "Séjour ouvert sur une cuisine sombre, mur en tasseaux de bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d1c7e0b46f3d97b4",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 11.8,
+      "y": 35.9,
+      "l": 70.6,
+      "h": 27.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 146,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1336
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sejour-cuisine-640.webp",
+      "sejour-cuisine-1280.webp",
+      "sejour-cuisine-1920.webp",
+      "sejour-cuisine-mobile-640.webp",
+      "sejour-cuisine-mobile-1080.webp"
+    ],
+    "poids": {
+      "sejour-cuisine-640.webp": 22542,
+      "sejour-cuisine-1280.webp": 89326,
+      "sejour-cuisine-1920.webp": 203204,
+      "sejour-cuisine-mobile-640.webp": 89620,
+      "sejour-cuisine-mobile-1080.webp": 197510
+    },
+    "media": "c.media({ nom: 'sejour-cuisine', alt: \"Séjour ouvert sur une cuisine sombre, mur en tasseaux de bois\", cadrage: '44% 50%', cadrageMobile: '50% 53%', sizes: '100vw', priorite: true })"
+  },
+  "cuisine-bar-noire": {
+    "nom": "cuisine-bar-noire",
+    "source": "recu/savoir-faire-images-2.jpg",
+    "role": "galerie",
+    "alt": "Cuisine aux meubles hauts noirs, bar et tabourets, arche rose",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6680584ce85a491d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 52%",
+    "sujet": {
+      "x": 23.5,
+      "y": 38.2,
+      "l": 50,
+      "h": 26.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.26,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cuisine-bar-noire-480.webp",
+      "cuisine-bar-noire-960.webp",
+      "cuisine-bar-noire-1600.webp"
+    ],
+    "poids": {
+      "cuisine-bar-noire-480.webp": 11100,
+      "cuisine-bar-noire-960.webp": 31570,
+      "cuisine-bar-noire-1600.webp": 70468
+    },
+    "media": "c.media({ nom: 'cuisine-bar-noire', alt: \"Cuisine aux meubles hauts noirs, bar et tabourets, arche rose\", cadrage: '45% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "cuisine-grise": {
+    "nom": "cuisine-grise",
+    "source": "recu/savoir-faire-images-18.webp",
+    "role": "galerie",
+    "alt": "Cuisine grise avec colonne four et coin repas lumineux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8adfb78767656da1",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "63% 38%",
+    "sujet": {
+      "x": 17.6,
+      "y": 11.8,
+      "l": 77.9,
+      "h": 47.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1360,
+      "height": 907,
+      "source": [
+        1360,
+        909
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1360 px après recadrage)"
+    ],
+    "fichiers": [
+      "cuisine-grise-480.webp",
+      "cuisine-grise-960.webp",
+      "cuisine-grise-1600.webp"
+    ],
+    "poids": {
+      "cuisine-grise-480.webp": 14434,
+      "cuisine-grise-960.webp": 39542,
+      "cuisine-grise-1600.webp": 75280
+    },
+    "media": "c.media({ nom: 'cuisine-grise', alt: \"Cuisine grise avec colonne four et coin repas lumineux\", cadrage: '63% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "evier-noir": {
+    "nom": "evier-noir",
+    "source": "recu/savoir-faire-images-14.jpg",
+    "role": "galerie",
+    "alt": "Évier noir intégré et robinet noir sur un plan sombre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "440a6e6add122eca",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "54% 43%",
+    "sujet": {
+      "x": 42.8,
+      "y": 25,
+      "l": 23.5,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.61,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 140,
+      "top": 0,
+      "width": 978,
+      "height": 1304,
+      "source": [
+        1118,
+        1304
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1118 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "evier-noir-480.webp",
+      "evier-noir-960.webp"
+    ],
+    "poids": {
+      "evier-noir-480.webp": 13424,
+      "evier-noir-960.webp": 60912
+    },
+    "media": "c.media({ nom: 'evier-noir', alt: \"Évier noir intégré et robinet noir sur un plan sombre\", cadrage: '54% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "evier-inox": {
+    "nom": "evier-inox",
+    "source": "recu/savoir-faire-images-15.jpg",
+    "role": "galerie",
+    "alt": "Évier inox sous plan sombre, robinet bronze et plantes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f52dc61ce9ee5838",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 63%",
+    "sujet": {
+      "x": 34.3,
+      "y": 54.6,
+      "l": 23,
+      "h": 27.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.52,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 1200,
+      "source": [
+        1200,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "evier-inox-480.webp",
+      "evier-inox-960.webp",
+      "evier-inox-1600.webp"
+    ],
+    "poids": {
+      "evier-inox-480.webp": 13218,
+      "evier-inox-960.webp": 39388,
+      "evier-inox-1600.webp": 80854
+    },
+    "media": "c.media({ nom: 'evier-inox', alt: \"Évier inox sous plan sombre, robinet bronze et plantes\", cadrage: '45% 63%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "plan-terrazzo": {
+    "nom": "plan-terrazzo",
+    "source": "recu/savoir-faire-images-16.jpg",
+    "role": "galerie",
+    "alt": "Plan de travail en terrazzo, évier inox et mur végétal",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e9225a06152523b6",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "57% 45%",
+    "sujet": {
+      "x": 34.2,
+      "y": 29.2,
+      "l": 43.8,
+      "h": 31.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 1200,
+      "source": [
+        1200,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "plan-terrazzo-480.webp",
+      "plan-terrazzo-960.webp",
+      "plan-terrazzo-1600.webp"
+    ],
+    "poids": {
+      "plan-terrazzo-480.webp": 54700,
+      "plan-terrazzo-960.webp": 211412,
+      "plan-terrazzo-1600.webp": 303626
+    },
+    "media": "c.media({ nom: 'plan-terrazzo', alt: \"Plan de travail en terrazzo, évier inox et mur végétal\", cadrage: '57% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "bain-miroir-rond": {
+    "nom": "bain-miroir-rond",
+    "source": "recu/savoir-faire-images.jpg",
+    "role": "galerie",
+    "alt": "Salle de bain, miroir rond rétroéclairé et meuble vasque noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0359898b069e0182",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "58% 52%",
+    "sujet": {
+      "x": 42.6,
+      "y": 36.8,
+      "l": 30.9,
+      "h": 29.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "bain-miroir-rond-480.webp",
+      "bain-miroir-rond-960.webp",
+      "bain-miroir-rond-1600.webp"
+    ],
+    "poids": {
+      "bain-miroir-rond-480.webp": 18190,
+      "bain-miroir-rond-960.webp": 58176,
+      "bain-miroir-rond-1600.webp": 121430
+    },
+    "media": "c.media({ nom: 'bain-miroir-rond', alt: \"Salle de bain, miroir rond rétroéclairé et meuble vasque noir\", cadrage: '58% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "bain-vasque-noire": {
+    "nom": "bain-vasque-noire",
+    "source": "recu/savoir-faire-images-12.jpg",
+    "role": "galerie",
+    "alt": "Vasque noire sur plan bois, miroir rond lumineux et douche",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7e9b345bd9308ae8",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "35% 41%",
+    "sujet": {
+      "x": 14.7,
+      "y": 17.6,
+      "l": 38.2,
+      "h": 45.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bain-vasque-noire-480.webp",
+      "bain-vasque-noire-960.webp",
+      "bain-vasque-noire-1600.webp"
+    ],
+    "poids": {
+      "bain-vasque-noire-480.webp": 8764,
+      "bain-vasque-noire-960.webp": 25368,
+      "bain-vasque-noire-1600.webp": 54752
+    },
+    "media": "c.media({ nom: 'bain-vasque-noire', alt: \"Vasque noire sur plan bois, miroir rond lumineux et douche\", cadrage: '35% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "bain-double-miroir": {
+    "nom": "bain-double-miroir",
+    "source": "recu/savoir-faire-images-4.jpg",
+    "role": "galerie",
+    "alt": "Salle de bain grège à deux miroirs ronds lumineux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e5508948f894c8d3",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "37% 54%",
+    "sujet": {
+      "x": 16.2,
+      "y": 26.5,
+      "l": 38.2,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.81,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.41,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bain-double-miroir-480.webp",
+      "bain-double-miroir-960.webp",
+      "bain-double-miroir-1600.webp"
+    ],
+    "poids": {
+      "bain-double-miroir-480.webp": 8926,
+      "bain-double-miroir-960.webp": 26134,
+      "bain-double-miroir-1600.webp": 60364
+    },
+    "media": "c.media({ nom: 'bain-double-miroir', alt: \"Salle de bain grège à deux miroirs ronds lumineux\", cadrage: '37% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "bain-led": {
+    "nom": "bain-led",
+    "source": "recu/prestations-mesure-2.webp",
+    "role": "galerie",
+    "alt": "Salle de bain blanche, douche à l'italienne et miroirs lumineux",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c2123c1bd6158b96",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "59% 45%",
+    "sujet": {
+      "x": 46.2,
+      "y": 19,
+      "l": 20.5,
+      "h": 36.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 1359,
+      "height": 906,
+      "source": [
+        1360,
+        906
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1359 px après recadrage)"
+    ],
+    "fichiers": [
+      "bain-led-480.webp",
+      "bain-led-960.webp",
+      "bain-led-1600.webp"
+    ],
+    "poids": {
+      "bain-led-480.webp": 10046,
+      "bain-led-960.webp": 29520,
+      "bain-led-1600.webp": 60856
+    },
+    "media": "c.media({ nom: 'bain-led', alt: \"Salle de bain blanche, douche à l'italienne et miroirs lumineux\", cadrage: '59% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "douche-italienne": {
+    "nom": "douche-italienne",
+    "source": "recu/savoir-faire-images-8.jpg",
+    "role": "galerie",
+    "alt": "Douche à l'italienne, paroi vitrée et robinetterie chromée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c46b2cecc24f281f",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "41% 55%",
+    "sujet": {
+      "x": 17.4,
+      "y": 34.1,
+      "l": 40.4,
+      "h": 41.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1336,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "douche-italienne-480.webp",
+      "douche-italienne-960.webp",
+      "douche-italienne-1600.webp"
+    ],
+    "poids": {
+      "douche-italienne-480.webp": 20330,
+      "douche-italienne-960.webp": 53308,
+      "douche-italienne-1600.webp": 97894
+    },
+    "media": "c.media({ nom: 'douche-italienne', alt: \"Douche à l'italienne, paroi vitrée et robinetterie chromée\", cadrage: '41% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "dressing-chambre": {
+    "nom": "dressing-chambre",
+    "source": "recu/prestations-mesure.jpg",
+    "role": "galerie",
+    "alt": "Chambre avec dressing intégré blanc du sol au plafond",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dc46aa9aa64ae174",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 60%",
+    "sujet": {
+      "x": 39.7,
+      "y": 44.1,
+      "l": 32.4,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "dressing-chambre-480.webp",
+      "dressing-chambre-960.webp",
+      "dressing-chambre-1600.webp"
+    ],
+    "poids": {
+      "dressing-chambre-480.webp": 12482,
+      "dressing-chambre-960.webp": 50782,
+      "dressing-chambre-1600.webp": 136698
+    },
+    "media": "c.media({ nom: 'dressing-chambre', alt: \"Chambre avec dressing intégré blanc du sol au plafond\", cadrage: '55% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "dressing-niche-chene": {
+    "nom": "dressing-niche-chene",
+    "source": "recu/savoir-faire-images-19.webp",
+    "role": "galerie",
+    "alt": "Chambre, rangements blancs et niche en chêne au-dessus du lit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "de47c85488fb9e48",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 51%",
+    "sujet": {
+      "x": 43.4,
+      "y": 30.5,
+      "l": 25.2,
+      "h": 31.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 1359,
+      "height": 906,
+      "source": [
+        1360,
+        906
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1359 px après recadrage)"
+    ],
+    "fichiers": [
+      "dressing-niche-chene-480.webp",
+      "dressing-niche-chene-960.webp",
+      "dressing-niche-chene-1600.webp"
+    ],
+    "poids": {
+      "dressing-niche-chene-480.webp": 8954,
+      "dressing-niche-chene-960.webp": 33732,
+      "dressing-niche-chene-1600.webp": 76386
+    },
+    "media": "c.media({ nom: 'dressing-niche-chene', alt: \"Chambre, rangements blancs et niche en chêne au-dessus du lit\", cadrage: '55% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "entree-claustra": {
+    "nom": "entree-claustra",
+    "source": "recu/savoir-faire-images-17.webp",
+    "role": "galerie",
+    "alt": "Entrée avec claustra en tasseaux de chêne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "507698985f022aac",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "46% 51%",
+    "sujet": {
+      "x": 19.1,
+      "y": 38.1,
+      "l": 52.9,
+      "h": 26.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.58,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 2,
+      "width": 1360,
+      "height": 907,
+      "source": [
+        1360,
+        909
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1360 px après recadrage)"
+    ],
+    "fichiers": [
+      "entree-claustra-480.webp",
+      "entree-claustra-960.webp",
+      "entree-claustra-1600.webp"
+    ],
+    "poids": {
+      "entree-claustra-480.webp": 5834,
+      "entree-claustra-960.webp": 16080,
+      "entree-claustra-1600.webp": 32236
+    },
+    "media": "c.media({ nom: 'entree-claustra', alt: \"Entrée avec claustra en tasseaux de chêne\", cadrage: '46% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "sejour-beton": {
+    "nom": "sejour-beton",
+    "source": "recu/savoir-faire-images-5.webp",
+    "role": "galerie",
+    "alt": "Séjour lumineux, mur effet béton et cuisine en fond",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e6238e0ebc1ad018",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "42% 43%",
+    "sujet": {
+      "x": 8.8,
+      "y": 22.1,
+      "l": 64.7,
+      "h": 39.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.34,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1336
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sejour-beton-480.webp",
+      "sejour-beton-960.webp",
+      "sejour-beton-1600.webp"
+    ],
+    "poids": {
+      "sejour-beton-480.webp": 16408,
+      "sejour-beton-960.webp": 56372,
+      "sejour-beton-1600.webp": 154222
+    },
+    "media": "c.media({ nom: 'sejour-beton', alt: \"Séjour lumineux, mur effet béton et cuisine en fond\", cadrage: '42% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "meuble-tv-claustra": {
+    "nom": "meuble-tv-claustra",
+    "source": "recu/savoir-faire-images-7.jpg",
+    "role": "galerie",
+    "alt": "Séjour avec meuble TV bas et mur en tasseaux de bois",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "0a58e4c618e556d9",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 16.2,
+      "y": 44,
+      "l": 67.6,
+      "h": 25.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 3,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1336
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meuble-tv-claustra-480.webp",
+      "meuble-tv-claustra-960.webp",
+      "meuble-tv-claustra-1600.webp"
+    ],
+    "poids": {
+      "meuble-tv-claustra-480.webp": 13356,
+      "meuble-tv-claustra-960.webp": 48284,
+      "meuble-tv-claustra-1600.webp": 132778
+    },
+    "media": "c.media({ nom: 'meuble-tv-claustra', alt: \"Séjour avec meuble TV bas et mur en tasseaux de bois\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "sejour-repas": {
+    "nom": "sejour-repas",
+    "source": "recu/savoir-faire-images-10.jpg",
+    "role": "galerie",
+    "alt": "Séjour et coin repas, meuble bas noir sous la fenêtre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f41e3871c3f19950",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 19.1,
+      "y": 41.2,
+      "l": 58.8,
+      "h": 47.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sejour-repas-480.webp",
+      "sejour-repas-960.webp",
+      "sejour-repas-1600.webp"
+    ],
+    "poids": {
+      "sejour-repas-480.webp": 11432,
+      "sejour-repas-960.webp": 32244,
+      "sejour-repas-1600.webp": 69784
+    },
+    "media": "c.media({ nom: 'sejour-repas', alt: \"Séjour et coin repas, meuble bas noir sous la fenêtre\", cadrage: '50% 62%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "meuble-tv-suspendu": {
+    "nom": "meuble-tv-suspendu",
+    "source": "recu/savoir-faire-images-13.jpg",
+    "role": "galerie",
+    "alt": "Meuble TV suspendu noir devant une arche rose",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4b121c26f7151894",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "68% 64%",
+    "sujet": {
+      "x": 48.5,
+      "y": 48.5,
+      "l": 38.2,
+      "h": 32.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meuble-tv-suspendu-480.webp",
+      "meuble-tv-suspendu-960.webp",
+      "meuble-tv-suspendu-1600.webp"
+    ],
+    "poids": {
+      "meuble-tv-suspendu-480.webp": 9572,
+      "meuble-tv-suspendu-960.webp": 27314,
+      "meuble-tv-suspendu-1600.webp": 63322
+    },
+    "media": "c.media({ nom: 'meuble-tv-suspendu', alt: \"Meuble TV suspendu noir devant une arche rose\", cadrage: '68% 64%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "meuble-tv-beton": {
+    "nom": "meuble-tv-beton",
+    "source": "recu/qualite-nava-garantie-10.jpg",
+    "role": "galerie",
+    "alt": "Long meuble TV noir sous un mur effet béton",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ac5888e06496527f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      960,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "68% 66%",
+    "sujet": {
+      "x": 57.3,
+      "y": 56.6,
+      "l": 41.2,
+      "h": 39.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1068
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "meuble-tv-beton-480.webp",
+      "meuble-tv-beton-960.webp",
+      "meuble-tv-beton-1600.webp"
+    ],
+    "poids": {
+      "meuble-tv-beton-480.webp": 19132,
+      "meuble-tv-beton-960.webp": 75468,
+      "meuble-tv-beton-1600.webp": 244208
+    },
+    "media": "c.media({ nom: 'meuble-tv-beton', alt: \"Long meuble TV noir sous un mur effet béton\", cadrage: '68% 66%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "facade-showroom": {
+    "nom": "facade-showroom",
+    "source": "recu/cuisiniste-mesure-2.png",
+    "role": "vignette",
+    "alt": "Dessin de la façade du showroom Faure Agencement",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4ca3802a07bcd640",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "44% 48%",
+    "sujet": {
+      "x": 8.9,
+      "y": 3.4,
+      "l": 83.3,
+      "h": 84.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "facade-showroom-480.webp",
+      "facade-showroom-640.webp",
+      "facade-showroom-800.webp"
+    ],
+    "poids": {
+      "facade-showroom-480.webp": 18572,
+      "facade-showroom-640.webp": 28718,
+      "facade-showroom-800.webp": 40588
+    },
+    "media": "c.media({ nom: 'facade-showroom', alt: \"Dessin de la façade du showroom Faure Agencement\", cadrage: '44% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/etape-cafe": {
+    "nom": "grok/etape-cafe",
+    "source": "recu/grok/etape-cafe.jpg",
+    "role": "vignette",
+    "alt": "Deux tasses de café sur une table en chêne, à côté d'échantillons de matières",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d36a442c6ab1ecae",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-cafe-640.webp",
+      "grok/etape-cafe-1280.webp"
+    ],
+    "poids": {
+      "grok/etape-cafe-640.webp": 35508,
+      "grok/etape-cafe-1280.webp": 106578
+    },
+    "media": "c.media({ nom: 'grok/etape-cafe', alt: \"Deux tasses de café sur une table en chêne, à côté d'échantillons de matières\", cadrage: '49% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/etape-croquis": {
+    "nom": "grok/etape-croquis",
+    "source": "recu/grok/etape-croquis.jpg",
+    "role": "vignette",
+    "alt": "Plan de cuisine dessiné au crayon sur papier calque, règle et échantillons",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c07b611b9748df2b",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "24% 33%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 87.5,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-croquis-480.webp",
+      "grok/etape-croquis-640.webp",
+      "grok/etape-croquis-800.webp"
+    ],
+    "poids": {
+      "grok/etape-croquis-480.webp": 19074,
+      "grok/etape-croquis-640.webp": 27082,
+      "grok/etape-croquis-800.webp": 34900
+    },
+    "media": "c.media({ nom: 'grok/etape-croquis', alt: \"Plan de cuisine dessiné au crayon sur papier calque, règle et échantillons\", cadrage: '24% 33%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/etape-pose": {
+    "nom": "grok/etape-pose",
+    "source": "recu/grok/etape-pose.jpg",
+    "role": "vignette",
+    "alt": "Niveau à bulle posé sur un plan de travail en chêne fraîchement installé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "efa5606b2c42f46f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 42%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 87.5,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/etape-pose-480.webp",
+      "grok/etape-pose-640.webp",
+      "grok/etape-pose-800.webp"
+    ],
+    "poids": {
+      "grok/etape-pose-480.webp": 11518,
+      "grok/etape-pose-640.webp": 16184,
+      "grok/etape-pose-800.webp": 21252
+    },
+    "media": "c.media({ nom: 'grok/etape-pose', alt: \"Niveau à bulle posé sur un plan de travail en chêne fraîchement installé\", cadrage: '48% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/matieres": {
+    "nom": "grok/matieres",
+    "source": "recu/grok/matieres.jpg",
+    "role": "section-fond",
+    "alt": "Échantillons de chêne, noyer, terrazzo, laque noire et laiton",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1caf24e43cd1a3e9",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "58% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/matieres-640.webp",
+      "grok/matieres-1280.webp",
+      "grok/matieres-1920.webp"
+    ],
+    "poids": {
+      "grok/matieres-640.webp": 33656,
+      "grok/matieres-1280.webp": 75494,
+      "grok/matieres-1920.webp": 122248
+    },
+    "media": "c.media({ nom: 'grok/matieres', alt: \"Échantillons de chêne, noyer, terrazzo, laque noire et laiton\", cadrage: '58% 47%', sizes: '100vw' })"
+  },
+  "grok/charniere": {
+    "nom": "grok/charniere",
+    "source": "recu/grok/charniere.jpg",
+    "role": "section-fond",
+    "alt": "Charnière d'une porte de placard laquée noire entrouverte",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "82207e6978af1988",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "67% 48%",
+    "sujet": {
+      "x": 22.4,
+      "y": 4.8,
+      "l": 76.6,
+      "h": 81
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.62,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1380,
+      "height": 920,
+      "source": [
+        1410,
+        920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,39 fois (source de 1380 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/charniere-640.webp",
+      "grok/charniere-1280.webp",
+      "grok/charniere-1920.webp"
+    ],
+    "poids": {
+      "grok/charniere-640.webp": 15242,
+      "grok/charniere-1280.webp": 37046,
+      "grok/charniere-1920.webp": 64364
+    },
+    "media": "c.media({ nom: 'grok/charniere', alt: \"Charnière d'une porte de placard laquée noire entrouverte\", cadrage: '67% 48%', sizes: '100vw' })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/404.jpg",
+    "role": "vignette",
+    "alt": "Tiroir de cuisine ouvert et vide, une seule cuillère en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "4beb7bb0a1cf9fca",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "60% 61%",
+    "sujet": {
+      "x": 31.3,
+      "y": 33.3,
+      "l": 62.5,
+      "h": 55.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.84,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.71,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/404-640.webp",
+      "grok/404-1280.webp"
+    ],
+    "poids": {
+      "grok/404-640.webp": 5076,
+      "grok/404-1280.webp": 12358
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Tiroir de cuisine ouvert et vide, une seule cuillère en bois\", cadrage: '60% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  }
+}

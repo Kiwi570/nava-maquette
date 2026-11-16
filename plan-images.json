@@ -1,0 +1,390 @@
+[
+ {
+  "source": "assets/images/logo-nava.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "NAVA by Faure Agencement"
+ },
+ {
+  "source": "recu/ils-parlent-nous-2.png",
+  "nom": "presse-forbes",
+  "role": "logo",
+  "alt": "Forbes"
+ },
+ {
+  "source": "recu/logo-sombre.jpg",
+  "nom": "presse-lyon-people",
+  "role": "logo",
+  "alt": "Lyon People"
+ },
+ {
+  "source": "recu/ils-parlent-nous-3.png",
+  "nom": "presse-lyon-capitale",
+  "role": "logo",
+  "alt": "Lyon Capitale"
+ },
+ {
+  "source": "recu/cuisiniste-mesure.jpg",
+  "nom": "cuisine-ilot-blanc",
+  "role": "ouverture",
+  "alt": "Cuisine blanche à îlot, plan en bois foncé et crédence assortie",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "accueil",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-11.jpg",
+  "nom": "cuisine-noire-arche",
+  "role": "ouverture",
+  "alt": "Cuisine noir mat, colonne four et coin repas devant une arche rose",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "droite",
+  "page": "realisations",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-9.jpg",
+  "nom": "sejour-cuisine",
+  "role": "ouverture",
+  "alt": "Séjour ouvert sur une cuisine sombre, mur en tasseaux de bois",
+  "beaute": 4,
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "savoir-faire",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-2.jpg",
+  "nom": "cuisine-bar-noire",
+  "role": "galerie",
+  "alt": "Cuisine aux meubles hauts noirs, bar et tabourets, arche rose",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-18.webp",
+  "nom": "cuisine-grise",
+  "role": "galerie",
+  "alt": "Cuisine grise avec colonne four et coin repas lumineux",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-14.jpg",
+  "nom": "evier-noir",
+  "role": "galerie",
+  "alt": "Évier noir intégré et robinet noir sur un plan sombre",
+  "beaute": 4,
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-15.jpg",
+  "nom": "evier-inox",
+  "role": "galerie",
+  "alt": "Évier inox sous plan sombre, robinet bronze et plantes",
+  "beaute": 4,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-16.jpg",
+  "nom": "plan-terrazzo",
+  "role": "galerie",
+  "alt": "Plan de travail en terrazzo, évier inox et mur végétal",
+  "beaute": 4,
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images.jpg",
+  "nom": "bain-miroir-rond",
+  "role": "galerie",
+  "alt": "Salle de bain, miroir rond rétroéclairé et meuble vasque noir",
+  "beaute": 4,
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-12.jpg",
+  "nom": "bain-vasque-noire",
+  "role": "galerie",
+  "alt": "Vasque noire sur plan bois, miroir rond lumineux et douche",
+  "beaute": 4,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-4.jpg",
+  "nom": "bain-double-miroir",
+  "role": "galerie",
+  "alt": "Salle de bain grège à deux miroirs ronds lumineux",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/prestations-mesure-2.webp",
+  "nom": "bain-led",
+  "role": "galerie",
+  "alt": "Salle de bain blanche, douche à l'italienne et miroirs lumineux",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-8.jpg",
+  "nom": "douche-italienne",
+  "role": "galerie",
+  "alt": "Douche à l'italienne, paroi vitrée et robinetterie chromée",
+  "beaute": 3,
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/prestations-mesure.jpg",
+  "nom": "dressing-chambre",
+  "role": "galerie",
+  "alt": "Chambre avec dressing intégré blanc du sol au plafond",
+  "beaute": 4,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-19.webp",
+  "nom": "dressing-niche-chene",
+  "role": "galerie",
+  "alt": "Chambre, rangements blancs et niche en chêne au-dessus du lit",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-17.webp",
+  "nom": "entree-claustra",
+  "role": "galerie",
+  "alt": "Entrée avec claustra en tasseaux de chêne",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-5.webp",
+  "nom": "sejour-beton",
+  "role": "galerie",
+  "alt": "Séjour lumineux, mur effet béton et cuisine en fond",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-7.jpg",
+  "nom": "meuble-tv-claustra",
+  "role": "galerie",
+  "alt": "Séjour avec meuble TV bas et mur en tasseaux de bois",
+  "beaute": 4,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-10.jpg",
+  "nom": "sejour-repas",
+  "role": "galerie",
+  "alt": "Séjour et coin repas, meuble bas noir sous la fenêtre",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/savoir-faire-images-13.jpg",
+  "nom": "meuble-tv-suspendu",
+  "role": "galerie",
+  "alt": "Meuble TV suspendu noir devant une arche rose",
+  "beaute": 3,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/qualite-nava-garantie-10.jpg",
+  "nom": "meuble-tv-beton",
+  "role": "galerie",
+  "alt": "Long meuble TV noir sous un mur effet béton",
+  "beaute": 4,
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   960,
+   1600
+  ]
+ },
+ {
+  "source": "recu/cuisiniste-mesure-2.png",
+  "nom": "facade-showroom",
+  "role": "vignette",
+  "alt": "Dessin de la façade du showroom Faure Agencement",
+  "beaute": 3,
+  "ratio": "3:2"
+ },
+ {
+  "source": "recu/grok/etape-cafe.jpg",
+  "nom": "grok/etape-cafe",
+  "role": "vignette",
+  "page": "Accueil, Showroom (ouverture) et L'accompagnement",
+  "emplacement": "Étape 1, Prenons un café",
+  "priorite": "Indispensable",
+  "alt": "Deux tasses de café sur une table en chêne, à côté d'échantillons de matières",
+  "beaute": 4,
+  "consigne_scene": "Close view of two small espresso cups on saucers on a pale oak table, beside a fanned set of kitchen material samples (oak veneer, white terrazzo, matte black lacquer, white lacquer) and a loosely rolled paper floor plan, steam rising gently from one cup, nobody in the frame, no hands",
+  "largeurs": [
+   640,
+   1280
+  ]
+ },
+ {
+  "source": "recu/grok/etape-croquis.jpg",
+  "nom": "grok/etape-croquis",
+  "role": "vignette",
+  "page": "Accueil et L'accompagnement",
+  "emplacement": "Étape 2, Imaginons ensemble",
+  "priorite": "Indispensable",
+  "alt": "Plan de cuisine dessiné au crayon sur papier calque, règle et échantillons",
+  "beaute": 4,
+  "consigne_scene": "Top-down view of a hand-drawn kitchen floor plan in graphite pencil on translucent tracing paper, showing an island and wall cabinets as simple lines, a wooden pencil and an architect scale ruler resting on it, three small square material samples (oak, terrazzo, matte black) at the edge, nobody, no hands, no readable text or numbers"
+ },
+ {
+  "source": "recu/grok/etape-pose.jpg",
+  "nom": "grok/etape-pose",
+  "role": "vignette",
+  "page": "Accueil et L'accompagnement",
+  "emplacement": "Étape 4, Place au concret",
+  "priorite": "Indispensable",
+  "alt": "Niveau à bulle posé sur un plan de travail en chêne fraîchement installé",
+  "beaute": 4,
+  "consigne_scene": "Close view of a yellow spirit level resting on a freshly installed pale oak kitchen worktop, matte black cabinet fronts below with a strip of thin protective film still on one door edge, a cordless screwdriver laid down at the edge of the frame, clean and tidy, nobody, no hands"
+ },
+ {
+  "source": "recu/grok/matieres.jpg",
+  "nom": "grok/matieres",
+  "role": "section-fond",
+  "page": "Savoir-faire et L'accompagnement (ouverture)",
+  "emplacement": "Fond de la partie Les matières",
+  "priorite": "Conseillée",
+  "alt": "Échantillons de chêne, noyer, terrazzo, laque noire et laiton",
+  "beaute": 4,
+  "consigne_scene": "Straight-on flat lay filling the whole frame edge to edge of kitchen material samples laid in overlapping rectangles: pale oak veneer, walnut, white terrazzo, matte black lacquer, white lacquer, and one brushed brass bar handle, soft grazing light revealing the grain, no objects other than the samples, nobody"
+ },
+ {
+  "source": "recu/grok/charniere.jpg",
+  "nom": "grok/charniere",
+  "role": "section-fond",
+  "page": "Accueil et L'accompagnement",
+  "emplacement": "Bande garantie 10 ans",
+  "priorite": "Conseillée",
+  "zone_texte": "gauche",
+  "alt": "Charnière d'une porte de placard laquée noire entrouverte",
+  "beaute": 4,
+  "consigne_scene": "Macro view inside a matte black lacquered kitchen cabinet with its door slightly open, a concealed soft-close steel hinge in sharp focus on the right, warm light sliding along the door edge, deep calm black area on the left for a title, nobody, no hands, no brand marks"
+ },
+ {
+  "source": "recu/grok/404.jpg",
+  "nom": "grok/404",
+  "role": "vignette",
+  "page": "404",
+  "emplacement": "Image de la page introuvable",
+  "priorite": "Indispensable",
+  "zone_texte": "gauche",
+  "alt": "Tiroir de cuisine ouvert et vide, une seule cuillère en bois",
+  "beaute": 3,
+  "consigne_scene": "A wide kitchen drawer pulled fully open, seen slightly from above, matte white front and pale oak interior, completely empty except for a single wooden spoon lying in a corner, playful and clean, the left part of the image calm for a title, nobody, no hands",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280
+  ]
+ }
+]

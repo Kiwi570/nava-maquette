@@ -1,0 +1,70 @@
+[
+ {
+  "id": "cuisine",
+  "num": "01",
+  "nom": "Cuisine sur mesure",
+  "resume": "Une vraie pièce à vivre",
+  "image": "cuisine-noire-arche",
+  "imageAlt": "Cuisine noir mat, colonne four et coin repas",
+  "texte": "Des cuisines pensées comme de véritables pièces à vivre, où l'esthétique rencontre la fonctionnalité.",
+  "images": [
+   "cuisine-ilot-blanc",
+   "plan-terrazzo"
+  ],
+  "facade": "evier-noir"
+ },
+ {
+  "id": "salle-de-bain",
+  "num": "02",
+  "nom": "Salle de bain",
+  "resume": "Clé en main, un cocon de bien-être",
+  "image": "bain-vasque-noire",
+  "imageAlt": "Vasque noire, miroir rond lumineux et douche",
+  "texte": "Des espaces de détente aux finitions soignées et aux matériaux de qualité : chaque salle de bain devient un cocon de bien-être, livré clé en main.",
+  "images": [
+   "bain-miroir-rond",
+   "bain-double-miroir"
+  ],
+  "facade": "douche-italienne"
+ },
+ {
+  "id": "dressing",
+  "num": "03",
+  "nom": "Dressing intégré",
+  "resume": "Optimisation, élégance, discrétion",
+  "image": "dressing-chambre",
+  "imageAlt": "Chambre avec dressing intégré blanc du sol au plafond",
+  "texte": "Des dressings qui s'intègrent harmonieusement à votre espace, tout en simplifiant votre quotidien : aménagements discrets et optimisés.",
+  "images": [
+   "dressing-niche-chene"
+  ],
+  "facade": "entree-claustra"
+ },
+ {
+  "id": "renovation",
+  "num": "04",
+  "nom": "Rénovation",
+  "resume": "Pilotée de A à Z",
+  "image": "sejour-beton",
+  "imageAlt": "Séjour lumineux, mur effet béton et cuisine en fond",
+  "texte": "Un pilotage complet de A à Z : nous coordonnons tous les corps de métier et vous livrons un intérieur clé en main.",
+  "images": [
+   "sejour-repas",
+   "cuisine-grise"
+  ],
+  "facade": "sejour-cuisine"
+ },
+ {
+  "id": "meuble-tv",
+  "num": "05",
+  "nom": "Meuble TV",
+  "resume": "Lignes épurées, rangements intégrés",
+  "image": "meuble-tv-beton",
+  "imageAlt": "Long meuble TV noir sous un mur effet béton",
+  "texte": "Un meuble TV conçu pour s'adapter parfaitement à votre intérieur : lignes épurées, rangements intégrés, finitions haut de gamme.",
+  "images": [
+   "meuble-tv-suspendu"
+  ],
+  "facade": "meuble-tv-claustra"
+ }
+]

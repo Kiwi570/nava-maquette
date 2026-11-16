@@ -1,0 +1,5 @@
+[
+  { "valeur": 2000, "avant": "plus de", "apres": "", "cle": "projets" },
+  { "valeur": 10, "avant": "", "apres": "ans", "cle": "garantie" },
+  { "valeur": 20, "avant": "plus de", "apres": "ans", "cle": "anciennete" }
+]

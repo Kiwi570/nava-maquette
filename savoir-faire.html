@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Savoir-faire · NAVA, cuisiniste sur-mesure</title>
+<meta name="description" content="Cuisine sur mesure, salle de bain clé en main, dressing intégré, rénovation et meuble TV : le savoir-faire NAVA, pièce par pièce.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://nava-maquette.vercel.app/savoir-faire">
+<style>:root{--fond:#F4F0EA;--texte:#1A1816;--voile-fond:#1A1816;--ouverture-fond:#ECE5DA;--menu-fond:#F4F0EA}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F0EA">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/images/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NAVA">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Savoir-faire · NAVA, cuisiniste sur-mesure">
+<meta property="og:description" content="Cuisine sur mesure, salle de bain clé en main, dressing intégré, rénovation et meuble TV : le savoir-faire NAVA, pièce par pièce.">
+<meta property="og:url" content="https://nava-maquette.vercel.app/savoir-faire">
+<meta property="og:image" content="https://nava-maquette.vercel.app/assets/partage/savoir-faire-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Savoir-faire NAVA : séjour ouvert sur une cuisine">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"NAVA · By Faure Agencement","url":"https://nava-maquette.vercel.app/","telephone":"+33428292969","address":{"@type":"PostalAddress","streetAddress":"27 route de Givors","postalCode":"69360","addressLocality":"Ternay","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"14:00","closes":"19:00"}],"sameAs":["https://www.instagram.com/nava_france/"],"description":"Cuisiniste sur-mesure à Ternay : cuisines, salles de bain, dressings, rénovation et meubles TV, de la conception à la pose."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><span class="voile-poignee voile-poignee--g"></span><span class="voile-poignee voile-poignee--d"></span><div class="voile-contenu"><img src="/assets/images/logo-nava-clair.png" alt="" width="600" height="231"><span data-voile-libelle>Savoir-faire</span></div></div>
+<div class="ouverture-panneau" data-ouverture data-gouttiere="#ECE5DA" aria-hidden="true">
+  <div class="facades" data-effet="facades"><span class="facade facade--g"></span><span class="facade facade--d"></span><span class="facade facade--g"></span><span class="facade facade--d"></span></div>
+  <div class="ouverture-centre">
+    <img class="ouverture-logo" src="/assets/images/logo-nava.png" alt="" width="600" height="231" data-ouverture-objet>
+    <span class="ouverture-trait"></span>
+    <p class="ouverture-ligne">Cuisiniste sur-mesure · Ternay</p>
+  </div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="NAVA by Faure Agencement, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-nava.png" alt="" width="600" height="231">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/realisations" data-libelle="Réalisations">Réalisations</a></li><li><a href="/savoir-faire" data-libelle="Savoir-faire" aria-current="page">Savoir-faire</a></li><li><a href="/accompagnement" data-libelle="L&#39;accompagnement">L&#39;accompagnement</a></li><li><a href="/showroom" data-libelle="Showroom &amp; contact">Showroom &amp; contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/showroom#rendez-vous" data-libelle="Showroom &amp; contact">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/realisations" class="menu-lien" data-libelle="Réalisations">Réalisations</a></li><li style="--i:2"><a href="/savoir-faire" class="menu-lien" data-libelle="Savoir-faire" aria-current="page">Savoir-faire</a></li><li style="--i:3"><a href="/accompagnement" class="menu-lien" data-libelle="L&#39;accompagnement">L&#39;accompagnement</a></li><li style="--i:4"><a href="/showroom" class="menu-lien" data-libelle="Showroom &amp; contact">Showroom &amp; contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33428292969">Appeler 04 28 29 29 69</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv--facades" id="debut">
+  <div class="conteneur ouv-facades-tete">
+    <div>
+      <p class="surtitre" data-anime="gsap">Savoir-faire</p>
+      <h1 class="ouv-titre ouv-titre--moyen" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">Cinq savoir-faire,</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>un même soin</em></span></span></h1>
+    </div>
+    <div class="ouv-facades-cote">
+      <p class="ouv-intro masque-ecran-tres-bas" data-anime="gsap">Cuisine, salle de bain, dressing, rénovation, meuble TV : chaque projet est conçu pour vous, puis suivi jusqu&#39;à la pose.</p>
+      <p class="actions" data-anime="gsap"><a href="/showroom#rendez-vous" class="bouton" data-libelle="Showroom &amp; contact" data-action-principale data-survol="magnetique">Parler de mon projet</a></p>
+      <p class="info-cle" data-anime="gsap" data-info-cle>Tous nos meubles sont garantis 10 ans</p>
+    </div>
+  </div>
+  <nav class="facades-pieces conteneur" aria-label="Aller à" data-iris-centre data-effet="facades-pieces">
+    <a class="facade-piece" href="#cuisine" data-sans-transition style="--i:0"><figure class="media facade-piece-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/evier-noir-960.webp" srcset="/assets/images/evier-noir-480.webp 480w, /assets/images/evier-noir-960.webp 960w" sizes="(max-width: 760px) 100vw, 22vw" alt="" width="960" height="1280" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><span class="facade-piece-nom"><small>01</small>Cuisine sur mesure</span><i class="facade-piece-poignee" aria-hidden="true"></i></a><a class="facade-piece" href="#salle-de-bain" data-sans-transition style="--i:1"><figure class="media facade-piece-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/douche-italienne-1600.webp" srcset="/assets/images/douche-italienne-480.webp 480w, /assets/images/douche-italienne-960.webp 960w, /assets/images/douche-italienne-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 22vw" alt="" width="1600" height="2401" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><span class="facade-piece-nom"><small>02</small>Salle de bain</span><i class="facade-piece-poignee" aria-hidden="true"></i></a><a class="facade-piece" href="#dressing" data-sans-transition style="--i:2"><figure class="media facade-piece-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/entree-claustra-1600.webp" srcset="/assets/images/entree-claustra-480.webp 480w, /assets/images/entree-claustra-960.webp 960w, /assets/images/entree-claustra-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 22vw" alt="" width="1600" height="1067" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><span class="facade-piece-nom"><small>03</small>Dressing intégré</span><i class="facade-piece-poignee" aria-hidden="true"></i></a><a class="facade-piece" href="#renovation" data-sans-transition style="--i:3"><figure class="media facade-piece-media" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/sejour-cuisine-mobile-640.webp 640w, /assets/images/sejour-cuisine-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 22vw">
+    <img src="/assets/images/sejour-cuisine-1280.webp" srcset="/assets/images/sejour-cuisine-640.webp 640w, /assets/images/sejour-cuisine-1280.webp 1280w, /assets/images/sejour-cuisine-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 22vw" alt="" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><span class="facade-piece-nom"><small>04</small>Rénovation</span><i class="facade-piece-poignee" aria-hidden="true"></i></a><a class="facade-piece" href="#meuble-tv" data-sans-transition style="--i:4"><figure class="media facade-piece-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/meuble-tv-claustra-1600.webp" srcset="/assets/images/meuble-tv-claustra-480.webp 480w, /assets/images/meuble-tv-claustra-960.webp 960w, /assets/images/meuble-tv-claustra-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 22vw" alt="" width="1600" height="1066" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><span class="facade-piece-nom"><small>05</small>Meuble TV</span><i class="facade-piece-poignee" aria-hidden="true"></i></a>
+  </nav>
+</section>
+<section class="piece " id="cuisine" aria-labelledby="t-cuisine">
+  <div class="conteneur piece-grille">
+    <div class="piece-images">
+      <figure class="media piece-media piece-media--grand" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cuisine-noire-arche-mobile-640.webp 640w, /assets/images/cuisine-noire-arche-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 46vw">
+    <img src="/assets/images/cuisine-noire-arche-1280.webp" srcset="/assets/images/cuisine-noire-arche-640.webp 640w, /assets/images/cuisine-noire-arche-1280.webp 1280w, /assets/images/cuisine-noire-arche-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 46vw" alt="Cuisine noir mat, colonne four et coin repas" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media piece-media piece-media--petit piece-media--1" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cuisine-ilot-blanc-mobile-640.webp 640w, /assets/images/cuisine-ilot-blanc-mobile-1080.webp 1080w" sizes="(max-width: 760px) 50vw, 22vw">
+    <img src="/assets/images/cuisine-ilot-blanc-1280.webp" srcset="/assets/images/cuisine-ilot-blanc-640.webp 640w, /assets/images/cuisine-ilot-blanc-1280.webp 1280w, /assets/images/cuisine-ilot-blanc-1920.webp 1920w" sizes="(max-width: 760px) 50vw, 22vw" alt="Cuisine blanche à îlot, plan en bois foncé et crédence assortie" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media piece-media piece-media--petit piece-media--2" data-fx="parallaxe" data-fx-force="16" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/plan-terrazzo-1600.webp" srcset="/assets/images/plan-terrazzo-480.webp 480w, /assets/images/plan-terrazzo-960.webp 960w, /assets/images/plan-terrazzo-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Plan de travail en terrazzo, évier inox et mur végétal" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="piece-texte">
+      <p class="piece-num" aria-hidden="true">01</p>
+      <h2 id="t-cuisine" data-anime="lignes">Cuisine sur mesure</h2>
+      <p class="piece-resume" data-anime>Une vraie pièce à vivre</p>
+      <p data-anime>Des cuisines pensées comme de véritables pièces à vivre, où l&#39;esthétique rencontre la fonctionnalité.</p>
+      <p class="actions" data-anime><a href="/showroom?projet=cuisine#rendez-vous" class="bouton bouton--contour" data-libelle="Showroom &amp; contact">En parler au showroom</a></p>
+    </div>
+  </div>
+</section><section class="piece piece--inverse" id="salle-de-bain" aria-labelledby="t-salle-de-bain">
+  <div class="conteneur piece-grille">
+    <div class="piece-images">
+      <figure class="media piece-media piece-media--grand" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bain-vasque-noire-1600.webp" srcset="/assets/images/bain-vasque-noire-480.webp 480w, /assets/images/bain-vasque-noire-960.webp 960w, /assets/images/bain-vasque-noire-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="Vasque noire, miroir rond lumineux et douche" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media piece-media piece-media--petit piece-media--1" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bain-miroir-rond-1600.webp" srcset="/assets/images/bain-miroir-rond-480.webp 480w, /assets/images/bain-miroir-rond-960.webp 960w, /assets/images/bain-miroir-rond-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Salle de bain, miroir rond rétroéclairé et meuble vasque noir" width="1600" height="2401" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media piece-media piece-media--petit piece-media--2" data-fx="parallaxe" data-fx-force="16" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bain-double-miroir-1600.webp" srcset="/assets/images/bain-double-miroir-480.webp 480w, /assets/images/bain-double-miroir-960.webp 960w, /assets/images/bain-double-miroir-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Salle de bain grège à deux miroirs ronds lumineux" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="piece-texte">
+      <p class="piece-num" aria-hidden="true">02</p>
+      <h2 id="t-salle-de-bain" data-anime="lignes">Salle de bain</h2>
+      <p class="piece-resume" data-anime>Clé en main, un cocon de bien-être</p>
+      <p data-anime>Des espaces de détente aux finitions soignées et aux matériaux de qualité : chaque salle de bain devient un cocon de bien-être, livré clé en main.</p>
+      <p class="actions" data-anime><a href="/showroom?projet=salle-de-bain#rendez-vous" class="bouton bouton--contour" data-libelle="Showroom &amp; contact">En parler au showroom</a></p>
+    </div>
+  </div>
+</section><section class="piece " id="dressing" aria-labelledby="t-dressing">
+  <div class="conteneur piece-grille">
+    <div class="piece-images">
+      <figure class="media piece-media piece-media--grand" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/dressing-chambre-1600.webp" srcset="/assets/images/dressing-chambre-480.webp 480w, /assets/images/dressing-chambre-960.webp 960w, /assets/images/dressing-chambre-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="Chambre avec dressing intégré blanc du sol au plafond" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media piece-media piece-media--petit piece-media--1 piece-media--large" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/dressing-niche-chene-1600.webp" srcset="/assets/images/dressing-niche-chene-480.webp 480w, /assets/images/dressing-niche-chene-960.webp 960w, /assets/images/dressing-niche-chene-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Chambre, rangements blancs et niche en chêne au-dessus du lit" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="piece-texte">
+      <p class="piece-num" aria-hidden="true">03</p>
+      <h2 id="t-dressing" data-anime="lignes">Dressing intégré</h2>
+      <p class="piece-resume" data-anime>Optimisation, élégance, discrétion</p>
+      <p data-anime>Des dressings qui s&#39;intègrent harmonieusement à votre espace, tout en simplifiant votre quotidien : aménagements discrets et optimisés.</p>
+      <p class="actions" data-anime><a href="/showroom?projet=dressing#rendez-vous" class="bouton bouton--contour" data-libelle="Showroom &amp; contact">En parler au showroom</a></p>
+    </div>
+  </div>
+</section><section class="piece piece--inverse" id="renovation" aria-labelledby="t-renovation">
+  <div class="conteneur piece-grille">
+    <div class="piece-images">
+      <figure class="media piece-media piece-media--grand" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sejour-beton-1600.webp" srcset="/assets/images/sejour-beton-480.webp 480w, /assets/images/sejour-beton-960.webp 960w, /assets/images/sejour-beton-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="Séjour lumineux, mur effet béton et cuisine en fond" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media piece-media piece-media--petit piece-media--1" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sejour-repas-1600.webp" srcset="/assets/images/sejour-repas-480.webp 480w, /assets/images/sejour-repas-960.webp 960w, /assets/images/sejour-repas-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Séjour et coin repas, meuble bas noir sous la fenêtre" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media piece-media piece-media--petit piece-media--2" data-fx="parallaxe" data-fx-force="16" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cuisine-grise-1600.webp" srcset="/assets/images/cuisine-grise-480.webp 480w, /assets/images/cuisine-grise-960.webp 960w, /assets/images/cuisine-grise-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Cuisine grise avec colonne four et coin repas lumineux" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="piece-texte">
+      <p class="piece-num" aria-hidden="true">04</p>
+      <h2 id="t-renovation" data-anime="lignes">Rénovation</h2>
+      <p class="piece-resume" data-anime>Pilotée de A à Z</p>
+      <p data-anime>Un pilotage complet de A à Z : nous coordonnons tous les corps de métier et vous livrons un intérieur clé en main.</p>
+      <p class="actions" data-anime><a href="/showroom?projet=renovation#rendez-vous" class="bouton bouton--contour" data-libelle="Showroom &amp; contact">En parler au showroom</a></p>
+    </div>
+  </div>
+</section><section class="piece " id="meuble-tv" aria-labelledby="t-meuble-tv">
+  <div class="conteneur piece-grille">
+    <div class="piece-images">
+      <figure class="media piece-media piece-media--grand" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/meuble-tv-beton-1600.webp" srcset="/assets/images/meuble-tv-beton-480.webp 480w, /assets/images/meuble-tv-beton-960.webp 960w, /assets/images/meuble-tv-beton-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="Long meuble TV noir sous un mur effet béton" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media piece-media piece-media--petit piece-media--1 piece-media--large" data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/meuble-tv-suspendu-1600.webp" srcset="/assets/images/meuble-tv-suspendu-480.webp 480w, /assets/images/meuble-tv-suspendu-960.webp 960w, /assets/images/meuble-tv-suspendu-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 22vw" alt="Meuble TV suspendu noir devant une arche rose" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="piece-texte">
+      <p class="piece-num" aria-hidden="true">05</p>
+      <h2 id="t-meuble-tv" data-anime="lignes">Meuble TV</h2>
+      <p class="piece-resume" data-anime>Lignes épurées, rangements intégrés</p>
+      <p data-anime>Un meuble TV conçu pour s&#39;adapter parfaitement à votre intérieur : lignes épurées, rangements intégrés, finitions haut de gamme.</p>
+      <p class="actions" data-anime><a href="/showroom?projet=meuble-tv#rendez-vous" class="bouton bouton--contour" data-libelle="Showroom &amp; contact">En parler au showroom</a></p>
+    </div>
+  </div>
+</section>
+<section class="matieres sombre" id="matieres">
+  <figure class="media matieres-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/matieres-1280.webp" srcset="/assets/images/grok/matieres-640.webp 640w, /assets/images/grok/matieres-1280.webp 1280w, /assets/images/grok/matieres-1920.webp 1920w" sizes="100vw" alt="Échantillons de chêne, noyer, terrazzo, laque noire et laiton" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur matieres-texte">
+    <p class="surtitre">Imaginons ensemble</p>
+    <h2 data-anime="lignes">Matières et couleurs, <em>choisies ensemble</em></h2>
+    <p data-anime>On explore vos styles et vos envies, puis vous visualisez votre projet en 3D, avec ses matières, ses couleurs et un devis clair et sans surprise.</p>
+    <p data-anime><a href="/accompagnement" class="lien-fleche" data-libelle="L&#39;accompagnement">Comment ça se passe</a></p>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="conteneur fin-grille">
+    <div class="fin-texte">
+      <h2 data-anime="lignes">Une pièce à repenser ?</h2>
+      <p data-anime>Chaque projet commence par une rencontre au showroom.</p>
+      <p class="actions" data-anime><a href="/showroom#rendez-vous" class="bouton" data-libelle="Showroom &amp; contact" data-survol="magnetique">Prendre rendez-vous</a></p>
+    </div>
+    <figure class="media fin-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bain-led-1600.webp" srcset="/assets/images/bain-led-480.webp 480w, /assets/images/bain-led-960.webp 960w, /assets/images/bain-led-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 44vw" alt="Salle de bain blanche, douche à l&#39;italienne et miroirs lumineux" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-nava-clair.png" alt="NAVA by Faure Agencement" width="600" height="231" loading="lazy">
+      <p>27 route de Givors, 69360 Ternay<br><a href="tel:+33428292969">04 28 29 29 69</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/realisations" data-libelle="Réalisations">Réalisations</a></li><li><a href="/savoir-faire" data-libelle="Savoir-faire" aria-current="page">Savoir-faire</a></li><li><a href="/accompagnement" data-libelle="L&#39;accompagnement">L&#39;accompagnement</a></li><li><a href="/showroom" data-libelle="Showroom &amp; contact">Showroom &amp; contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Le showroom</p>
+      <p>Du lundi au samedi, 10 h-12 h et 14 h-19 h</p>
+      <ul>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=NAVA+27+Route+de+Givors+69360+Ternay" target="_blank" rel="noopener">Ouvrir l&#39;itinéraire<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/nava_france/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>© 2004-2026 NAVA® · By Faure Agencement</p>
+    <p><span>Mentions légales (à compléter)</span> · <span id="confidentialite">Politique de confidentialité (à compléter)</span></p>
+    <p>Maquette : les éléments marqués « à compléter » seront fournis par le client.</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33428292969">Appeler</a>
+  <a class="bouton" href="/showroom#rendez-vous" data-libelle="Showroom &amp; contact">Rendez-vous</a>
+</div>
+</body>
+</html>

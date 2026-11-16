@@ -1,0 +1,23 @@
+… fichiers
+  fait en 0 s
+… mesures
+  20/66
+  42/66
+  64/66
+  fait en 94 s
+… mesures:balayage
+  fait en 29 s
+… parcours:intro
+  fait en 56 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 127 s
+… parcours:hauteur
+  fait en 44 s
+… parcours:projet
+  fait en 0 s
+
+Échecs : 17 · À regarder : 4 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --seulement=fichiers,mesures,parcours
+Rapport : /home/claude/nava/_audit/rapport/rapport.md (passe 20261116-182438-standard-partiel)

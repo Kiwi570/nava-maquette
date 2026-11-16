@@ -1,0 +1,133 @@
+/* Modules de la bibliothèque (Kiwi570/bibliotheque-maquettes), repris tels quels : offre-a-tiroirs, objet-3d-qui-se-construit. */
+/* Offre à tiroirs : prestations en tiroirs qui se déplient, colonne d'images collante sur ordinateur.
+   Identité uniquement par variables. Sans JavaScript (pas de classe ofr--pret), tous les tiroirs sont dépliés. */
+.ofr { position: relative; padding-block: clamp(56px, 9vw, 128px); }
+.ofr__tete { display: grid; gap: .8rem; max-width: 46rem; margin-bottom: clamp(24px, 4vw, 48px); }
+.ofr__h2 { font-size: clamp(2rem, 5vw, 3.6rem); }
+.ofr__intro { color: var(--couleur-texte-doux); max-width: 38rem; }
+
+/* Tiroirs */
+.ofr__tiroirs { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--couleur-ligne); }
+.ofr__tiroir { position: relative; border-bottom: 1px solid var(--couleur-ligne); }
+.ofr__titre { margin: 0; font: inherit; }
+.ofr__poignee { position: relative; z-index: 1; display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) auto 44px; align-items: center; gap: .3rem 1rem; width: 100%; min-height: 76px;
+  padding: clamp(14px, 2vw, 22px) 0; border: 0; background: var(--couleur-fond); text-align: left; cursor: pointer;
+  transition: transform .45s cubic-bezier(.2, .7, .2, 1), box-shadow .45s, background-color .3s; }
+.ofr__num { align-self: start; padding-top: .45em; font-family: var(--police-mono); font-size: max(12px, .8rem); letter-spacing: .1em; color: var(--couleur-texte-doux); }
+.ofr__nom { grid-column: 2; font-family: var(--police-titres); font-size: clamp(1.25rem, 2.4vw, 1.9rem); line-height: 1.15; }
+.ofr__resume { grid-column: 2; color: var(--couleur-texte-doux); font-size: max(14px, .95rem); }
+.ofr__prix { grid-column: 3; grid-row: 1 / span 2; font-family: var(--police-mono); font-size: max(12px, .85rem); letter-spacing: .04em; white-space: nowrap; color: var(--couleur-texte-doux); }
+/* Bouton de tiroir : un plus qui devient un moins. */
+.ofr__poignee::after { content: ''; grid-column: 4; grid-row: 1 / span 2; justify-self: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--couleur-ligne);
+  background: linear-gradient(currentColor, currentColor) center / 14px 1.5px no-repeat, linear-gradient(currentColor, currentColor) center / 1.5px 14px no-repeat;
+  transition: transform .4s, background-size .3s, border-color .3s; }
+.ofr__poignee:hover::after { border-color: var(--couleur-texte-doux); }
+.ofr--pret .est-ouvert .ofr__poignee::after { transform: rotate(180deg); background-size: 14px 1.5px, 1.5px 0; border-color: var(--couleur-accent); }
+/* La façade avance quand le tiroir s'ouvre. */
+.ofr--pret .est-ouvert .ofr__poignee { transform: translateY(-3px); box-shadow: 0 14px 22px -18px color-mix(in oklab, var(--couleur-texte) 70%, transparent); }
+.ofr--pret .est-ouvert .ofr__num { color: var(--couleur-accent); }
+
+/* Contenu : se déplie (grid-template-rows 0fr → 1fr), sans mesure ni hauteur en dur. */
+.ofr__contenu { display: grid; grid-template-rows: 1fr; }
+.ofr--pret .ofr__contenu { grid-template-rows: 0fr; transition: grid-template-rows .55s cubic-bezier(.2, .7, .2, 1); }
+/* Avant le module (JavaScript actif) : déjà l'état de départ, premier tiroir ouvert, pour qu'aucun tiroir ne se referme sous les yeux (CLS 0). */
+@media (scripting: enabled) { .ofr:not(.ofr--pret) .ofr__tiroir:not(:first-child) .ofr__contenu { grid-template-rows: 0fr; } .ofr:not(.ofr--pret) .ofr__tiroir:not(:first-child) .ofr__interieur { opacity: 0; } }
+.ofr--pret .est-ouvert .ofr__contenu { grid-template-rows: 1fr; }
+.ofr__interieur { min-height: 0; overflow: hidden; padding-inline: 4.2rem 0; }
+.ofr__interieur > * { margin: 0 0 .9rem; }
+.ofr__interieur::after { content: ''; display: block; height: clamp(10px, 1.6vw, 20px); }
+.ofr--pret .ofr__interieur { opacity: 0; transform: translateY(-10px); transition: opacity .35s, transform .55s cubic-bezier(.2, .7, .2, 1); }
+.ofr--pret .est-ouvert .ofr__interieur { opacity: 1; transform: none; transition-delay: .08s; }
+.ofr__interieur p { color: var(--couleur-texte-doux); max-width: 40rem; }
+.ofr__interieur ul { padding-left: 1.2em; display: grid; gap: .35rem; }
+.ofr__parler { margin-top: .3rem; }
+.ofr__image { aspect-ratio: 16 / 10; overflow: hidden; border-radius: calc(var(--rayon) * .8); }
+.ofr__image > img, .ofr__image > div { width: 100%; height: 100%; object-fit: cover; }
+
+/* Colonne d'images collante (ordinateur) : l'image du tiroir ouvert. */
+.ofr__visuels { display: none; }
+@media (min-width: 960px) {
+  .ofr--visuels .ofr__corps { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(28px, 4vw, 72px); align-items: start; }
+  .ofr--visuels .ofr__visuels { grid-column: 1; grid-row: 1; }
+  .ofr--visuels .ofr__tiroirs { grid-column: 2; grid-row: 1; }
+  .ofr--visuels .ofr__visuels { display: block; position: sticky; top: calc(var(--entete-h) + 24px); aspect-ratio: 4 / 5; max-height: calc(var(--ecran-h) - var(--entete-h) - 48px);
+    overflow: hidden; border-radius: var(--rayon); background: var(--couleur-surface); }
+  .ofr__visuel { position: absolute; inset: 0; margin: 0; opacity: 0; transform: scale(1.06); transition: opacity .6s ease, transform 1.2s cubic-bezier(.2, .7, .2, 1); }
+  .ofr__visuel.est-actif { opacity: 1; transform: none; }
+  .ofr__visuel > img, .ofr__visuel > div { width: 100%; height: 100%; object-fit: cover; }
+  .ofr--visuels .ofr__interieur .ofr__image { display: none; }
+}
+/* Avant le module (JavaScript actif, tiroirs avec images) : les deux colonnes sont déjà là, la liste ne se décale pas. */
+@media (scripting: enabled) and (min-width: 960px) {
+  .ofr:not(.ofr--pret):has(.ofr__image) .ofr__corps { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(28px, 4vw, 72px); align-items: start; }
+  .ofr:not(.ofr--pret):has(.ofr__image) .ofr__tiroirs { grid-column: 2; grid-row: 1; }
+  .ofr:not(.ofr--pret):has(.ofr__image) .ofr__interieur .ofr__image { display: none; }
+}
+@media (max-width: 640px) {
+  .ofr__poignee { grid-template-columns: 2.2rem minmax(0, 1fr) 44px; }
+  .ofr__prix { grid-column: 2; grid-row: auto; }
+  .ofr__poignee::after { grid-column: 3; grid-row: 1 / span 3; }
+  .ofr__interieur { padding-inline: 0; }
+}
+
+.ofr--anime .ofr__tiroir:not(.est-vu) { opacity: 0; transform: translateY(14px); }
+.ofr--anime .ofr__tiroir { transition: opacity .55s ease, transform .55s cubic-bezier(.2, .7, .2, 1); }
+/* Objet 3D qui se construit — identité uniquement par les variables du socle.
+   Repère de l'objet : origine au centre du sol, x vers la droite, y vers le haut (--y), z vers le visiteur.
+   Une boîte .o3d__boite (--l largeur, --p profondeur, --h hauteur, --x --y --z position de sa base) a cinq faces :
+   .o3d__f--av, --ar, --g, --d, --haut. Ses faces sont teintées par --o3d-teinte et ombrées selon leur orientation. */
+.o3d { position: relative; padding-block: clamp(56px, 8vw, 120px); --o3d-k: 1; --o3d-ry: -32deg; --o3d-rx: -22deg; }
+.o3d__cadre { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(20px, 3vw, 40px); }
+.o3d__texte { display: grid; gap: 12px; align-content: center; }
+.o3d__titre { font-size: clamp(1.9rem, min(4.2vw, 7vh), 3.6rem); line-height: 1.02; }
+.o3d__intro { color: var(--couleur-texte-doux); max-width: 44ch; }
+.o3d__etapes { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; counter-reset: o3d; }
+.o3d__etapes li { counter-increment: o3d; display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: baseline; padding: 8px 12px; border-radius: var(--rayon); border: 1px solid var(--couleur-ligne); transition: background .35s, border-color .35s; }
+.o3d__etapes li::before { content: counter(o3d, decimal-leading-zero); font-family: var(--police-mono); font-size: max(12px, .8rem); color: var(--couleur-texte-doux); }
+.o3d__etapes li strong { display: block; }
+.o3d__etapes li span { color: var(--couleur-texte-doux); font-size: max(13px, .9rem); }
+.o3d.est-actif .o3d__etapes li { color: var(--couleur-texte-doux); }
+.o3d.est-actif .o3d__etapes li.est-active { color: var(--couleur-texte); background: var(--couleur-surface); border-color: var(--couleur-accent); }
+
+.o3d__scene { position: relative; height: min(clamp(300px, 52vw, 520px), 80svh); perspective: 1400px; perspective-origin: 50% 30%; cursor: grab; touch-action: pan-y; user-select: none; -webkit-user-select: none; outline-offset: 6px; }
+.o3d__scene:active { cursor: grabbing; }
+.o3d__objet { position: absolute; left: 50%; top: 72%; width: 0; height: 0; transform-style: preserve-3d;
+  transform: scale(var(--o3d-k)) rotateX(var(--o3d-rx)) rotateY(var(--o3d-ry)); }
+.o3d__sol { position: absolute; left: -330px; top: -240px; width: 660px; height: 480px; border-radius: 50%; transform: rotateX(90deg);
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--couleur-texte) 14%, transparent), transparent); }
+.o3d__piece { position: absolute; left: 0; top: 0; transform-style: preserve-3d;
+  transform: translate3d(0, calc((1 - var(--m, 1)) * var(--o3d-chute, -280px)), 0) rotateY(calc((1 - var(--m, 1)) * var(--o3d-vrille, 0deg))); }
+/* L'opacité est posée sur les faces : sur une pièce, elle aplatirait la 3D. */
+.o3d__boite { position: absolute; left: 0; top: 0; transform-style: preserve-3d; --o3d-teinte: var(--couleur-surface);
+  transform: translate3d(var(--x, 0px), calc(var(--y, 0px) * -1), var(--z, 0px)) rotateY(var(--ry, 0deg)) rotateZ(var(--rz, 0deg)); }
+.o3d__f { position: absolute; background: var(--o3d-teinte); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--couleur-texte) 22%, transparent); backface-visibility: hidden; -webkit-backface-visibility: hidden; opacity: calc(var(--m, 1) * 3); }
+.o3d__f::after { content: ""; position: absolute; inset: 0; background: color-mix(in oklab, var(--couleur-fond) 25%, black); opacity: var(--o, 0); pointer-events: none; }
+.o3d__f--av, .o3d__f--ar { width: var(--l); height: var(--h); left: calc(var(--l) / -2); top: calc(var(--h) * -1); transform-origin: 50% 100%; }
+.o3d__f--av { --o: var(--o3d-o-av, .1); transform: translateZ(calc(var(--p) / 2)); }
+.o3d__f--ar { --o: var(--o3d-o-ar, .4); transform: rotateY(180deg) translateZ(calc(var(--p) / 2)); }
+.o3d__f--g, .o3d__f--d { width: var(--p); height: var(--h); left: calc(var(--p) / -2); top: calc(var(--h) * -1); transform-origin: 50% 100%; }
+.o3d__f--g { --o: var(--o3d-o-g, .3); transform: rotateY(-90deg) translateZ(calc(var(--l) / 2)); }
+.o3d__f--d { --o: var(--o3d-o-d, .2); transform: rotateY(90deg) translateZ(calc(var(--l) / 2)); }
+.o3d__f--haut { width: var(--l); height: var(--p); left: calc(var(--l) / -2); top: calc(var(--p) / -2); --o: 0; transform: translateY(calc(var(--h) * -1)) rotateX(90deg); }
+.o3d__indice { position: absolute; left: 50%; bottom: 8px; translate: -50% 0; margin: 0; padding: .35em .9em; border-radius: 999px; background: var(--couleur-surface); color: var(--couleur-texte-doux); font-size: max(12px, .82rem); white-space: nowrap; pointer-events: none; }
+.o3d:not(.est-actif) .o3d__indice { display: none; }
+.o3d__indice { transition: opacity .4s; } .o3d.est-touche .o3d__indice { opacity: 0; }
+
+/* Habillage des boîtes (démonstration et usage courant) : baies dessinées sur les faces, pignon triangulaire. */
+.o3d__boite { --o3d-vitre: color-mix(in oklab, var(--couleur-secondaire) 55%, var(--couleur-fond)); }
+.o3d__boite--baies > .o3d__f--av, .o3d__boite--baies > .o3d__f--ar {
+  background: linear-gradient(var(--o3d-vitre), var(--o3d-vitre)) 14% 38% / 20% 36% no-repeat,
+    linear-gradient(var(--o3d-vitre), var(--o3d-vitre)) 52% 100% / 15% 64% no-repeat,
+    linear-gradient(var(--o3d-vitre), var(--o3d-vitre)) 88% 38% / 20% 36% no-repeat, var(--o3d-teinte); }
+.o3d__boite--baie > .o3d__f--g, .o3d__boite--baie > .o3d__f--d { background: linear-gradient(var(--o3d-vitre), var(--o3d-vitre)) 50% 40% / 34% 36% no-repeat, var(--o3d-teinte); }
+.o3d__boite--pignon > .o3d__f--av, .o3d__boite--pignon > .o3d__f--ar { clip-path: polygon(50% 0, 100% 100%, 0 100%); box-shadow: none; }
+
+/* Ordinateur : texte à gauche, scène à droite ; épinglé, tout tient dans l'écran. */
+@media (min-width: 900px) {
+  .o3d__cadre { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); grid-template-rows: 1fr auto auto 1fr; grid-template-areas: ". scene" "texte scene" "etapes scene" ". scene"; column-gap: clamp(24px, 4vw, 64px); row-gap: 20px; }
+  .o3d__texte { grid-area: texte; } .o3d__etapes { grid-area: etapes; } .o3d__scene { grid-area: scene; align-self: center; height: clamp(380px, 62vh, 620px); }
+}
+.o3d--epingle { padding-block: 0; }
+.o3d--epingle .o3d__cadre { height: var(--ecran-h); row-gap: 14px; padding-top: calc(var(--entete-h) + 16px); padding-bottom: calc(var(--barres-h) + 16px); }
+.o3d--epingle .o3d__scene { height: 100%; max-height: 680px; align-self: stretch; }
+@media (max-height: 820px) and (min-width: 900px) { .o3d__intro { display: none; } .o3d__etapes li { padding: 6px 10px; } .o3d__etapes li span { display: none; } }

@@ -1,0 +1,389 @@
+{
+  "dossier": "/home/claude/nava/recu/grok",
+  "date": "2026-11-16T18:03:45.502Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "404.jpg",
+      "nom": "404",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 229045,
+      "transparence": false,
+      "sujet": {
+        "x": 31.3,
+        "y": 33.3,
+        "l": 62.5,
+        "h": 55.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        61
+      ],
+      "cadrage_css": "60% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 32.6,
+        "bruit": 0.45,
+        "compression": 2.18,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "10210b1311b09087",
+      "drapeaux": [
+        "compression visible",
+        "calme haut/gauche"
+      ]
+    },
+    {
+      "fichier": "charniere.jpg",
+      "nom": "charniere",
+      "drapeau": null,
+      "largeur": 1410,
+      "hauteur": 920,
+      "ratio": "3:2",
+      "ratio_valeur": 1.533,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 210226,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 4.8,
+        "l": 75,
+        "h": 81,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        48
+      ],
+      "cadrage_css": "66% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 9.1,
+        "bruit": 0.37,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3f3e5e5e765e5e3e",
+      "drapeaux": []
+    },
+    {
+      "fichier": "etape-cafe.jpg",
+      "nom": "etape-cafe",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 485490,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        46
+      ],
+      "cadrage_css": "49% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 45.8,
+        "bruit": 1.04,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a2a2a3a8883c1469",
+      "drapeaux": []
+    },
+    {
+      "fichier": "etape-croquis.jpg",
+      "nom": "etape-croquis",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 330266,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 87.5,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        24,
+        33
+      ],
+      "cadrage_css": "24% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 10.1,
+        "bruit": 0.41,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "be94849e9cb4b4b3",
+      "drapeaux": []
+    },
+    {
+      "fichier": "etape-pose.jpg",
+      "nom": "etape-pose",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 266050,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 87.5,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        42
+      ],
+      "cadrage_css": "48% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 6,
+        "bruit": 0.35,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "34313131393e9e86",
+      "drapeaux": []
+    },
+    {
+      "fichier": "matieres.jpg",
+      "nom": "matieres",
+      "drapeau": null,
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 389189,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        47
+      ],
+      "cadrage_css": "58% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 10.1,
+        "bruit": 0.46,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "68e4a6636cb0b2e9",
+      "drapeaux": []
+    }
+  ]
+}

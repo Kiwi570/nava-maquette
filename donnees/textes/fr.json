@@ -1,0 +1,312 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Français",
+    "actionEntete": "Prendre rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Plan du site",
+    "confort": "Le showroom",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les éléments marqués « à compléter » seront fournis par le client.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Cuisiniste sur-mesure · Ternay",
+    "logoAlt": "NAVA by Faure Agencement, accueil",
+    "horairesCourts": "Du lundi au samedi, 10 h-12 h et 14 h-19 h",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "copyright": "© 2004-2026 NAVA® · By Faure Agencement",
+    "instagram": "Instagram",
+    "suivre": "Suivre NAVA",
+    "itineraire": "Ouvrir l'itinéraire",
+    "nouvelOnglet": "(nouvel onglet)",
+    "statutDefaut": "Showroom à Ternay, du lundi au samedi",
+    "actionCourte": "Rendez-vous"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "NAVA, cuisiniste sur-mesure à Ternay · By Faure Agencement",
+      "description": "Cuisines, salles de bain, dressings, rénovation et meubles TV sur mesure à Ternay, de la conception à la pose. Meubles garantis 10 ans.",
+      "nav": "Accueil",
+      "partageAlt": "NAVA, cuisiniste sur-mesure : cuisine blanche à îlot",
+      "accroche": "Cuisines sur mesure à Ternay"
+    },
+    "realisations": {
+      "titre": "Nos réalisations · NAVA, cuisiniste sur-mesure",
+      "description": "Cuisines, salles de bain, dressings et séjours : une sélection de projets NAVA. Toutes les photos viennent de nos réalisations.",
+      "nav": "Réalisations",
+      "partageAlt": "Réalisations NAVA : cuisine noir mat",
+      "accroche": "Nos réalisations, 100 % authentiques"
+    },
+    "savoir-faire": {
+      "titre": "Savoir-faire · NAVA, cuisiniste sur-mesure",
+      "description": "Cuisine sur mesure, salle de bain clé en main, dressing intégré, rénovation et meuble TV : le savoir-faire NAVA, pièce par pièce.",
+      "nav": "Savoir-faire",
+      "partageAlt": "Savoir-faire NAVA : séjour ouvert sur une cuisine",
+      "accroche": "Cinq savoir-faire, un même soin"
+    },
+    "accompagnement": {
+      "titre": "L'accompagnement · NAVA, de l'idée à la pose",
+      "description": "Prenons un café, imaginons ensemble, projetez-vous en 3D, place au concret : l'accompagnement NAVA, et des meubles garantis 10 ans.",
+      "nav": "L'accompagnement",
+      "partageAlt": "L'accompagnement NAVA : plans et échantillons sur une table",
+      "accroche": "De l'idée à la pose"
+    },
+    "showroom": {
+      "titre": "Showroom et contact · NAVA à Ternay",
+      "description": "Le showroom NAVA, 27 route de Givors à Ternay : du lundi au samedi, 10 h-12 h et 14 h-19 h. Prenez rendez-vous ou appelez le 04 28 29 29 69.",
+      "nav": "Showroom & contact",
+      "partageAlt": "Showroom NAVA : un café et des façades de cuisine",
+      "accroche": "Prenons un café au showroom"
+    },
+    "404": {
+      "titre": "Page introuvable · NAVA",
+      "description": "Cette page n'existe pas.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Ce tiroir est vide"
+    }
+  },
+  "statut": {
+    "ouvert": "Ouvert · jusqu'à {h}",
+    "bientot": "Ferme bientôt · à {h}",
+    "fermeAujourdhui": "Fermé · ouvre à {h}",
+    "fermeDemain": "Fermé · ouvre demain à {h}",
+    "libelle": "Showroom"
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Ternay · cuisines, bains, dressings",
+      "titre1": "Cuisiniste",
+      "titre2": "sur-mesure",
+      "texte": "Plus de 20 ans d'expertise : de la conception à la pose, nos spécialistes sont à vos côtés.",
+      "action": "Prendre rendez-vous au showroom",
+      "secondaire": "Voir nos réalisations",
+      "sceau": "Meubles garantis 10 ans · NAVA · Ternay ·",
+      "sceauCentre": "10",
+      "sceauAns": "ans"
+    },
+    "presse": {
+      "titre": "Ils parlent de nous"
+    },
+    "chiffres": {
+      "titre": "Chaque projet raconte une histoire",
+      "projets": "projets réalisés, tous uniques, tous pensés pour durer",
+      "garantie": "de garantie sur tous nos meubles",
+      "anciennete": "à Ternay, de Perene à NAVA"
+    },
+    "prestations": {
+      "surtitre": "Nos prestations",
+      "titre": "Tout sur mesure,",
+      "titreAccent": "pièce par pièce",
+      "intro": "De la cuisine au dressing, chaque meuble est dessiné pour votre intérieur, puis suivi jusqu'à la pose.",
+      "prix": "Sur devis",
+      "parler": "En parler",
+      "voir": "Voir ce savoir-faire"
+    },
+    "citation": {
+      "texte": "Chez NAVA, nous ne faisons pas que rénover. Nous orchestrons, anticipons, exécutons.",
+      "auteur": "Matys Faure, fondateur",
+      "suite": "Parce que le vrai luxe, c'est de ne rien avoir à gérer."
+    },
+    "methode": {
+      "surtitre": "Étape par étape",
+      "titre": "De l'idée",
+      "titreAccent": "à la pose",
+      "intro": "Du premier café à la dernière finition, nous coordonnons chaque étape et chaque corps de métier.",
+      "scene": "Îlot de cuisine en 3D qui se monte à mesure des étapes : flèches gauche et droite pour le faire tourner",
+      "indice": "Faites tourner l'îlot",
+      "lien": "Tout l'accompagnement"
+    },
+    "realisations": {
+      "surtitre": "100 % authentique",
+      "titre": "Notre savoir-faire",
+      "titreAccent": "en images",
+      "texte": "Toutes les photos de ce site viennent de nos propres réalisations : pas de banque d'images.",
+      "tout": "Voir toutes les réalisations"
+    },
+    "garantie": {
+      "surtitre": "La qualité NAVA",
+      "chiffre": "10",
+      "titre": "ans de garantie",
+      "texte": "Tous nos meubles sont garantis 10 ans.",
+      "engagements": "Une vision 360° de votre projet, un budget adapté sans sacrifier l'essentiel, et votre satisfaction garantie jusqu'à l'achèvement."
+    },
+    "showroom": {
+      "surtitre": "Trois choix, un projet en commun",
+      "titre": "Prenons",
+      "titreAccent": "un café",
+      "texte": "Le choix préféré de nos clients : passer au showroom et parler de votre projet autour d'un café.",
+      "tel": "Par téléphone",
+      "telTexte": "Une question, un premier conseil : appelez-nous.",
+      "visite": "Au showroom",
+      "visiteTexte": "27 route de Givors à Ternay, autour d'un café.",
+      "formulaire": "Par écrit",
+      "formulaireTexte": "Décrivez votre projet, nous revenons vers vous.",
+      "formulaireLien": "Décrire mon projet",
+      "visiteLien": "Prendre rendez-vous",
+      "cadran": "Horaires du showroom aujourd'hui"
+    },
+    "fin": {
+      "titre": "Beaux, et",
+      "titreAccent": "bien posés",
+      "texte": "Sur-mesure, bien pensé, et toujours avec le sourire !",
+      "rdv": "Prendre rendez-vous",
+      "realisations": "Voir les réalisations"
+    }
+  },
+  "realisations": {
+    "titre": "Nos",
+    "titreAccent": "réalisations",
+    "texte": "Cuisines, salles de bain, dressings et séjours : une sélection de projets menés par notre équipe.",
+    "info": "100 % authentique : toutes ces photos viennent de nos réalisations",
+    "action": "Prendre rendez-vous",
+    "filtres": "Filtrer par pièce",
+    "toutes": "Toutes",
+    "cuisines": "Cuisines",
+    "bains": "Salles de bain",
+    "dressings": "Dressings et rangements",
+    "sejours": "Séjours et meubles TV",
+    "compte": "{n} photos",
+    "ouvrir": "Agrandir : {t}",
+    "precedente": "Photo précédente",
+    "suivante": "Photo suivante",
+    "fermer": "Fermer la photo",
+    "visionneuse": "Photo agrandie",
+    "fin": "Un projet vous ressemble ?",
+    "finTexte": "Venez en parler au showroom : on regarde vos envies, vos contraintes et votre budget.",
+    "finAction": "Prendre rendez-vous",
+    "finSecondaire": "Nos savoir-faire"
+  },
+  "savoirFaire": {
+    "surtitre": "Savoir-faire",
+    "titre": "Cinq savoir-faire,",
+    "titreAccent": "un même soin",
+    "texte": "Cuisine, salle de bain, dressing, rénovation, meuble TV : chaque projet est conçu pour vous, puis suivi jusqu'à la pose.",
+    "info": "Tous nos meubles sont garantis 10 ans",
+    "action": "Parler de mon projet",
+    "sommaire": "Aller à",
+    "parler": "En parler au showroom",
+    "matieres": {
+      "surtitre": "Imaginons ensemble",
+      "titre": "Matières et couleurs,",
+      "titreAccent": "choisies ensemble",
+      "texte": "On explore vos styles et vos envies, puis vous visualisez votre projet en 3D, avec ses matières, ses couleurs et un devis clair et sans surprise.",
+      "lien": "Comment ça se passe"
+    },
+    "fin": "Une pièce à repenser ?",
+    "finTexte": "Chaque projet commence par une rencontre au showroom.",
+    "finAction": "Prendre rendez-vous"
+  },
+  "accompagnement": {
+    "titre": "De l'idée",
+    "titreAccent": "à la pose",
+    "texte": "Un accompagnement de la conception à la pose, avec la coordination de tous les corps de métier.",
+    "info": "Quatre étapes, un devis clair et sans surprise",
+    "action": "Commencer par un café",
+    "etapes": {
+      "surtitre": "Étape par étape",
+      "titre": "Quatre étapes,",
+      "titreAccent": "zéro surprise"
+    },
+    "engagements": {
+      "titre": "Nos engagements",
+      "e1": "Une vision 360°",
+      "e1t": "Votre projet est pensé dans son ensemble, de la conception à la pose.",
+      "e2": "Un budget adapté",
+      "e2t": "Le projet s'adapte à votre budget, sans sacrifier l'essentiel.",
+      "e3": "Une satisfaction garantie",
+      "e3t": "Nous restons à vos côtés jusqu'à l'achèvement."
+    },
+    "histoire": {
+      "surtitre": "Qui sommes-nous ?",
+      "titre": "De Perene",
+      "titreAccent": "à NAVA",
+      "texte": "Connus depuis plus de 20 ans sous l'enseigne Perene à Ternay, nous avons construit notre réputation autour du sur-mesure, de l'écoute et de l'accompagnement.",
+      "texte2": "Sous le nom NAVA, nous poursuivons la même philosophie, avec une nouvelle liberté de création et une offre élargie, portée par des spécialistes expérimentés et passionnés.",
+      "citation": "Chaque projet raconte une histoire… Nous en avons écrit plus de 2 000, toutes uniques, toutes pensées pour durer."
+    },
+    "fin": "On commence par un café ?",
+    "finTexte": "Première étape : une rencontre au showroom, à Ternay.",
+    "finAction": "Prendre rendez-vous"
+  },
+  "etapes": {
+    "e1": "Prenons un café",
+    "e1t": "On se rencontre au showroom pour parler de votre projet.",
+    "e2": "Imaginons ensemble",
+    "e2t": "On explore vos styles, vos envies et votre façon de vivre la pièce.",
+    "e3": "Projetez-vous",
+    "e3t": "Visualisation en 3D, matières, couleurs, et un devis clair et sans surprise.",
+    "e4": "Place au concret",
+    "e4t": "Suivi, livraison et pose : nous coordonnons tout jusqu'à la dernière finition.",
+    "e3Visuel": "Vue 3D d'un îlot de cuisine, dessinée en traits"
+  },
+  "showroom": {
+    "surtitre": "Showroom & contact",
+    "titre": "Prenons",
+    "titreAccent": "un café",
+    "texte": "Le showroom vous accueille au 27 route de Givors, à Ternay, pour parler de votre projet.",
+    "action": "Prendre rendez-vous",
+    "appeler": "04 28 29 29 69",
+    "cadran": "Horaires du jour",
+    "rdv": {
+      "surtitre": "Rendez-vous",
+      "titre": "Parlons de",
+      "titreAccent": "votre projet",
+      "texte": "Trois étapes, une minute. Nous vous rappelons pour fixer le rendez-vous.",
+      "etape": "Étape {n} sur 3",
+      "e1": "Votre projet",
+      "e2": "Le rendez-vous",
+      "e3": "Vos coordonnées",
+      "projet": "Quelle pièce ?",
+      "cuisine": "Cuisine",
+      "salleDeBain": "Salle de bain",
+      "dressing": "Dressing",
+      "renovation": "Rénovation",
+      "meubleTv": "Meuble TV",
+      "autre": "Autre projet",
+      "mode": "Comment préférez-vous en parler ?",
+      "modeShowroom": "Au showroom, autour d'un café",
+      "modeTel": "Par téléphone",
+      "moment": "Plutôt",
+      "matin": "le matin (10 h-12 h)",
+      "apresMidi": "l'après-midi (14 h-19 h)",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "message": "Votre message (facultatif)",
+      "suivant": "Continuer",
+      "precedent": "Retour",
+      "envoyer": "Envoyer ma demande",
+      "recap": "Votre demande",
+      "modifier": "Modifier",
+      "donnees": "Vos coordonnées servent uniquement à vous recontacter au sujet de votre projet. <a href=\"#confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "envoye": "Demande simulée : rien n'a été envoyé. Sur le site final, elle arrivera directement chez NAVA.",
+      "choisir": "Choisissez une réponse."
+    },
+    "acces": {
+      "surtitre": "Accès",
+      "titre": "27 route de Givors,",
+      "titreAccent": "Ternay",
+      "texte": "Le showroom et le siège de NAVA By Faure Agencement.",
+      "horaires": "Horaires du showroom",
+      "jours": "Du lundi au samedi",
+      "creneaux": "10 h-12 h et 14 h-19 h",
+      "dessin": "Dessin de la façade du showroom Faure Agencement"
+    },
+    "confidentialite": "Politique de confidentialité : à compléter par le client."
+  },
+  "introuvable": {
+    "titre": "Ce tiroir",
+    "titreAccent": "est vide",
+    "texte": "La page que vous cherchez n'existe pas, ou plus.",
+    "retour": "Retour à l'accueil",
+    "realisations": "Voir les réalisations"
+  }
+}

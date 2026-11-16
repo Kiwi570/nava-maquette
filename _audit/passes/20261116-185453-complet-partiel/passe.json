@@ -1,0 +1,17 @@
+{
+ "id": "20261116-185453-complet-partiel",
+ "date": "2026-11-16T19:00:52.156Z",
+ "niveau": "complet",
+ "pages": "toutes",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "ecran"
+ ],
+ "version": "1",
+ "echecs": 4,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

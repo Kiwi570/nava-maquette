@@ -1,0 +1,6 @@
+{
+  "siteActuel": "nava.fr",
+  "pagesTypes": ["/", "/realisations", "/savoir-faire", "/accompagnement", "/showroom"],
+  "effets": ["facades", "sceau", "tiroirs", "ilot-3d", "mosaique", "charniere", "cadran", "frise", "filtres", "rendez-vous"],
+  "grille": { "dispenses": {} }
+}

@@ -1,0 +1,186 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accompagnement",
+      "langue": "fr",
+      "fichier": "assets/partage/accompagnement-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/matieres-1280.webp",
+      "poids": 62356,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "cuisine-ilot-blanc-1280.webp",
+      "poids": 47409,
+      "sujet": {
+        "x": 664,
+        "y": 227,
+        "l": 477,
+        "h": 175
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 53,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "realisations",
+      "langue": "fr",
+      "fichier": "assets/partage/realisations-fr.jpg",
+      "gabarit": "droite",
+      "image": "cuisine-noire-arche-1280.webp",
+      "poids": 44620,
+      "sujet": {
+        "x": 600,
+        "y": 165,
+        "l": 600,
+        "h": 296
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "savoir-faire",
+      "langue": "fr",
+      "fichier": "assets/partage/savoir-faire-fr.jpg",
+      "gabarit": "droite",
+      "image": "sejour-cuisine-1280.webp",
+      "poids": 62705,
+      "sujet": {
+        "x": 600,
+        "y": 226,
+        "l": 600,
+        "h": 176
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "showroom",
+      "langue": "fr",
+      "fichier": "assets/partage/showroom-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/etape-cafe-1280.webp",
+      "poids": 73376,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

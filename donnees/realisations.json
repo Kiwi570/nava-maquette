@@ -1,0 +1,23 @@
+[
+  { "id": "cuisine-ilot-blanc", "piece": "cuisines", "titre": "Cuisine blanche à îlot", "alt": "Cuisine blanche à îlot, plan en bois foncé et crédence assortie", "format": "large" },
+  { "id": "cuisine-noire-arche", "piece": "cuisines", "titre": "Cuisine noir mat", "alt": "Cuisine noir mat, colonne four et coin repas devant une arche rose", "format": "large" },
+  { "id": "evier-noir", "piece": "cuisines", "titre": "Évier noir intégré", "alt": "Évier noir intégré et robinet noir sur un plan sombre", "format": "haut" },
+  { "id": "bain-miroir-rond", "piece": "bains", "titre": "Miroir rond rétroéclairé", "alt": "Salle de bain, miroir rond rétroéclairé et meuble vasque noir", "format": "haut" },
+  { "id": "sejour-cuisine", "piece": "sejours", "titre": "Séjour et cuisine ouverte", "alt": "Séjour ouvert sur une cuisine sombre, mur en tasseaux de bois", "format": "large" },
+  { "id": "plan-terrazzo", "piece": "cuisines", "titre": "Plan en terrazzo", "alt": "Plan de travail en terrazzo, évier inox et mur végétal", "format": "carre" },
+  { "id": "dressing-chambre", "piece": "dressings", "titre": "Dressing du sol au plafond", "alt": "Chambre avec dressing intégré blanc du sol au plafond", "format": "large" },
+  { "id": "bain-vasque-noire", "piece": "bains", "titre": "Vasque noire sur bois", "alt": "Vasque noire sur plan bois, miroir rond lumineux et douche", "format": "large" },
+  { "id": "evier-inox", "piece": "cuisines", "titre": "Évier inox sous plan", "alt": "Évier inox sous plan sombre, robinet bronze et plantes", "format": "carre" },
+  { "id": "meuble-tv-claustra", "piece": "sejours", "titre": "Meuble TV et tasseaux", "alt": "Séjour avec meuble TV bas et mur en tasseaux de bois", "format": "large" },
+  { "id": "cuisine-bar-noire", "piece": "cuisines", "titre": "Cuisine et bar", "alt": "Cuisine aux meubles hauts noirs, bar et tabourets, arche rose", "format": "large" },
+  { "id": "douche-italienne", "piece": "bains", "titre": "Douche à l'italienne", "alt": "Douche à l'italienne, paroi vitrée et robinetterie chromée", "format": "haut" },
+  { "id": "dressing-niche-chene", "piece": "dressings", "titre": "Rangements et niche en chêne", "alt": "Chambre, rangements blancs et niche en chêne au-dessus du lit", "format": "large" },
+  { "id": "meuble-tv-beton", "piece": "sejours", "titre": "Meuble TV sous béton ciré", "alt": "Long meuble TV noir sous un mur effet béton", "format": "large" },
+  { "id": "bain-double-miroir", "piece": "bains", "titre": "Deux miroirs lumineux", "alt": "Salle de bain grège à deux miroirs ronds lumineux", "format": "large" },
+  { "id": "cuisine-grise", "piece": "cuisines", "titre": "Cuisine grise", "alt": "Cuisine grise avec colonne four et coin repas lumineux", "format": "large" },
+  { "id": "entree-claustra", "piece": "dressings", "titre": "Entrée et claustra", "alt": "Entrée avec claustra en tasseaux de chêne", "format": "large" },
+  { "id": "bain-led", "piece": "bains", "titre": "Salle de bain lumineuse", "alt": "Salle de bain blanche, douche à l'italienne et miroirs lumineux", "format": "large" },
+  { "id": "sejour-beton", "piece": "sejours", "titre": "Séjour lumineux", "alt": "Séjour lumineux, mur effet béton et cuisine en fond", "format": "large" },
+  { "id": "meuble-tv-suspendu", "piece": "sejours", "titre": "Meuble TV suspendu", "alt": "Meuble TV suspendu noir devant une arche rose", "format": "large" },
+  { "id": "sejour-repas", "piece": "sejours", "titre": "Séjour et coin repas", "alt": "Séjour et coin repas, meuble bas noir sous la fenêtre", "format": "large" }
+]

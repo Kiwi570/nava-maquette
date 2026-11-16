@@ -1,0 +1,140 @@
+{
+  "client": "NAVA",
+  "activite": "bâtiment",
+  "direction": "Façades",
+  "date": "2026-11-16T17:35:07.871Z",
+  "images": [
+    {
+      "nom": "etape-cafe",
+      "fichier": "etape-cafe.jpg",
+      "page": "Accueil et Showroom",
+      "emplacement": "Étape 1, Prenons un café",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close view of two small espresso cups on saucers on a pale oak table, beside a fanned set of kitchen material samples (oak veneer, white terrazzo, matte black lacquer, white lacquer) and a loosely rolled paper floor plan, steam rising gently from one cup, nobody in the frame, no hands. Landscape composition, aspect ratio 3:2. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "etape-croquis",
+      "fichier": "etape-croquis.jpg",
+      "page": "Accueil et L'accompagnement",
+      "emplacement": "Étape 2, Imaginons ensemble",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Top-down view of a hand-drawn kitchen floor plan in graphite pencil on translucent tracing paper, showing an island and wall cabinets as simple lines, a wooden pencil and an architect scale ruler resting on it, three small square material samples (oak, terrazzo, matte black) at the edge, nobody, no hands, no readable text or numbers. Landscape composition, aspect ratio 3:2. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "etape-pose",
+      "fichier": "etape-pose.jpg",
+      "page": "Accueil et L'accompagnement",
+      "emplacement": "Étape 4, Place au concret",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close view of a yellow spirit level resting on a freshly installed pale oak kitchen worktop, matte black cabinet fronts below with a strip of thin protective film still on one door edge, a cordless screwdriver laid down at the edge of the frame, clean and tidy, nobody, no hands. Landscape composition, aspect ratio 3:2. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accompagnement-ouverture",
+      "fichier": "accompagnement-ouverture.jpg",
+      "page": "L'accompagnement",
+      "emplacement": "Ouverture (ordinateur) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide view of a large pale oak design table seen from a low three-quarter angle, on its right half rolled paper plans, a fan of kitchen material samples (oak, walnut, white terrazzo, matte black and white lacquer, a brushed brass handle) and two espresso cups, a wide calm empty area of softly blurred linen-white wall kept free for a title, nobody, no hands. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accompagnement-ouverture",
+      "fichier": "accompagnement-ouverture-mobile.jpg",
+      "page": "L'accompagnement",
+      "emplacement": "Ouverture (ordinateur) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide view of a large pale oak design table seen from a low three-quarter angle, on its right half rolled paper plans, a fan of kitchen material samples (oak, walnut, white terrazzo, matte black and white lacquer, a brushed brass handle) and two espresso cups, a wide calm empty area of softly blurred linen-white wall kept free for a title, nobody, no hands. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "showroom-ouverture",
+      "fichier": "showroom-ouverture.jpg",
+      "page": "Showroom et contact",
+      "emplacement": "Ouverture (ordinateur) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "An espresso cup and saucer on the edge of a pale oak table in the right foreground, beyond it a softly blurred row of large kitchen cabinet doors displayed side by side in matte black, white lacquer and natural oak finishes, welcoming and calm, a soft empty area kept free for a title, nobody, no signage, no logo. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "showroom-ouverture",
+      "fichier": "showroom-ouverture-mobile.jpg",
+      "page": "Showroom et contact",
+      "emplacement": "Ouverture (ordinateur) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "An espresso cup and saucer on the edge of a pale oak table in the right foreground, beyond it a softly blurred row of large kitchen cabinet doors displayed side by side in matte black, white lacquer and natural oak finishes, welcoming and calm, a soft empty area kept free for a title, nobody, no signage, no logo. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "matieres",
+      "fichier": "matieres.jpg",
+      "page": "Savoir-faire",
+      "emplacement": "Fond de la partie Les matières",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "Straight-on flat lay filling the whole frame edge to edge of kitchen material samples laid in overlapping rectangles: pale oak veneer, walnut, white terrazzo, matte black lacquer, white lacquer, and one brushed brass bar handle, soft grazing light revealing the grain, no objects other than the samples, nobody. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "charniere",
+      "fichier": "charniere.jpg",
+      "page": "Accueil et L'accompagnement",
+      "emplacement": "Bande garantie 10 ans",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [
+        "mécanismes"
+      ],
+      "consigne": "Macro view inside a matte black lacquered kitchen cabinet with its door slightly open, a concealed soft-close steel hinge in sharp focus on the right, warm light sliding along the door edge, deep calm black area on the left for a title, nobody, no hands, no brand marks. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. The assembly shown complete and mechanically accurate, every part mounted exactly as on a real working machine, nothing floating or held loose by hand; or the parts lying still on the bench, not assembled. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "404",
+      "fichier": "404.jpg",
+      "page": "404",
+      "emplacement": "Image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A wide kitchen drawer pulled fully open, seen slightly from above, matte white front and pale oak interior, completely empty except for a single wooden spoon lying in a corner, playful and clean, the left part of the image calm for a title, nobody, no hands. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, warm and refined mood, palette of warm linen white, pale sand, natural oak and matte charcoal black, soft diffused morning daylight from a large window on the left, tactile pale oak veneer, matte black lacquer, white terrazzo and brushed brass, set in a contemporary family home in south-eastern France on a bright autumn morning, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

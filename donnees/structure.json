@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "NAVA · By Faure Agencement",
+  "url": "https://nava-maquette.vercel.app/",
+  "telephone": "+33428292969",
+  "address": { "@type": "PostalAddress", "streetAddress": "27 route de Givors", "postalCode": "69360", "addressLocality": "Ternay", "addressCountry": "FR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "10:00", "closes": "12:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "14:00", "closes": "19:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/nava_france/"],
+  "description": "Cuisiniste sur-mesure à Ternay : cuisines, salles de bain, dressings, rénovation et meubles TV, de la conception à la pose."
+}

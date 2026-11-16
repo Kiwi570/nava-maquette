@@ -1,0 +1,2408 @@
+{
+  "dossier": "/Users/paul/Downloads/nava-recu",
+  "date": "2026-11-16T17:32:27.124Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 1916,
+      "hauteur": 777,
+      "ratio": "2.47",
+      "ratio_valeur": 2.466,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 133826,
+      "transparence": false,
+      "sujet": {
+        "x": 44.4,
+        "y": 21.7,
+        "l": 32.1,
+        "h": 42.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        54
+      ],
+      "cadrage_css": "61% 54%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 0.05,
+        "compression": 0.91,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "NAVA · by Faure Agencement",
+        "blocs": 2,
+        "surface": 63.8,
+        "details": [
+          {
+            "texte": "NAVA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "by Faure Agencement",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8999d55526aa4187",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "logo-sombre.jpg",
+      "nom": "logo-sombre",
+      "drapeau": "logo",
+      "largeur": 200,
+      "hauteur": 193,
+      "ratio": "1.04",
+      "ratio_valeur": 1.036,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 23905,
+      "transparence": false,
+      "sujet": {
+        "x": 16.8,
+        "y": 27.8,
+        "l": 55.5,
+        "h": 48.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        49
+      ],
+      "cadrage_css": "37% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 35.3,
+        "bruit": 0.41,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "lyon · people",
+        "blocs": 2,
+        "surface": 39.8,
+        "details": [
+          {
+            "texte": "lyon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "people",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "502cb2d1cc9a3944",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestations-mesure.jpg",
+      "nom": "prestations-mesure",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 372512,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 44.1,
+        "l": 32.4,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        60
+      ],
+      "cadrage_css": "55% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 73.8,
+        "bruit": 0.73,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "603333b397b323c5",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images.jpg",
+      "nom": "savoir-faire-images",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 267693,
+      "transparence": false,
+      "sujet": {
+        "x": 42.6,
+        "y": 36.8,
+        "l": 30.9,
+        "h": 29.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        52
+      ],
+      "cadrage_css": "58% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 0.64,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "df7927bb2e9f9700",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-2.jpg",
+      "nom": "savoir-faire-images-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 263410,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 38.2,
+        "l": 50,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        52
+      ],
+      "cadrage_css": "45% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 34.8,
+        "bruit": 0.44,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "81692e341517377d",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-3.jpg",
+      "nom": "savoir-faire-images-3",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 183824,
+      "transparence": false,
+      "sujet": {
+        "x": 28.6,
+        "y": 5,
+        "l": 35.1,
+        "h": 90.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        57
+      ],
+      "cadrage_css": "48% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 15.2,
+        "bruit": 0.36,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3216121212929217",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-4.jpg",
+      "nom": "savoir-faire-images-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 283526,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 26.5,
+        "l": 38.2,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        54
+      ],
+      "cadrage_css": "37% 54%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 21.4,
+        "bruit": 0.56,
+        "compression": 1.42,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "dc6c6c4c9cb49c1c",
+      "drapeaux": [
+        "autre",
+        "calme droite/haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-5.webp",
+      "nom": "savoir-faire-images-5",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 435332,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 22.1,
+        "l": 64.7,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        43
+      ],
+      "cadrage_css": "42% 43%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 39,
+        "bruit": 1.22,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "80e0626686123060",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-6.jpg",
+      "nom": "savoir-faire-images-6",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 195188,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 39.7,
+        "l": 54.4,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        58
+      ],
+      "cadrage_css": "61% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 20.7,
+        "bruit": 0.38,
+        "compression": 1.46,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c0e4e6e2d8ec8781",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-7.jpg",
+      "nom": "savoir-faire-images-7",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 363234,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 44.1,
+        "l": 67.6,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        56
+      ],
+      "cadrage_css": "50% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 66,
+        "bruit": 0.71,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f0ba746d6d1119b4",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-8.jpg",
+      "nom": "savoir-faire-images-8",
+      "drapeau": "autre",
+      "largeur": 1336,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 240566,
+      "transparence": false,
+      "sujet": {
+        "x": 17.4,
+        "y": 34.1,
+        "l": 40.3,
+        "h": 41.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        55
+      ],
+      "cadrage_css": "41% 55%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 36.8,
+        "bruit": 0.42,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3c20725a7a58fcf6",
+      "drapeaux": [
+        "autre",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-9.jpg",
+      "nom": "savoir-faire-images-9",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 440391,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 41.2,
+        "l": 70.6,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        53
+      ],
+      "cadrage_css": "44% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 67.2,
+        "bruit": 0.65,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e0b0603111b50c2c",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "coordonnees.jpg",
+      "nom": "coordonnees",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 52462,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 39.7,
+        "l": 60.3,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        54
+      ],
+      "cadrage_css": "45% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 31.6,
+        "bruit": 0.11,
+        "compression": 0.87,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "NAVA · by Faure Agencement",
+        "blocs": 2,
+        "surface": 18.5,
+        "details": [
+          {
+            "texte": "NAVA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "by Faure Agencement",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00010b4935250100",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "cuisiniste-mesure.jpg",
+      "nom": "cuisiniste-mesure",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 200249,
+      "transparence": false,
+      "sujet": {
+        "x": 36.8,
+        "y": 41.2,
+        "l": 42.6,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        53
+      ],
+      "cadrage_css": "58% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 33.8,
+        "bruit": 0.33,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "AbCdEf · iKlm",
+        "blocs": 2,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "AbCdEf",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "iKlm",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "fcf0ce44e59e1f16",
+      "drapeaux": [
+        "autre",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-10.jpg",
+      "nom": "savoir-faire-images-10",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 249184,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 41.2,
+        "l": 58.8,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        62
+      ],
+      "cadrage_css": "50% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 35.7,
+        "bruit": 0.43,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "79f4d8ece3fbe9cd",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-11.jpg",
+      "nom": "savoir-faire-images-11",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 199600,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 30.9,
+        "l": 57.4,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 34.2,
+        "bruit": 0.32,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f97efedcfdfb737b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-12.jpg",
+      "nom": "savoir-faire-images-12",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 206787,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 17.6,
+        "l": 38.2,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        41
+      ],
+      "cadrage_css": "35% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 0.38,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "af9b99bd7d7e3e78",
+      "drapeaux": [
+        "autre",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-13.jpg",
+      "nom": "savoir-faire-images-13",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 245267,
+      "transparence": false,
+      "sujet": {
+        "x": 48.5,
+        "y": 48.5,
+        "l": 38.2,
+        "h": 32.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        64
+      ],
+      "cadrage_css": "68% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 0.38,
+        "compression": 1.36,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "6c7232d35373d1d6",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "qualite-nava-garantie-10.jpg",
+      "nom": "qualite-nava-garantie-10",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1068,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 492900,
+      "transparence": false,
+      "sujet": {
+        "x": 57.3,
+        "y": 56.6,
+        "l": 41.2,
+        "h": 39.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        66
+      ],
+      "cadrage_css": "68% 66%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 58.8,
+        "bruit": 1.4,
+        "compression": 1.04,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b0f8f3acf2f1e1d3",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cuisiniste-mesure-2.png",
+      "nom": "cuisiniste-mesure-2",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3049313,
+      "transparence": false,
+      "sujet": {
+        "x": 8.9,
+        "y": 3.4,
+        "l": 83.3,
+        "h": 84.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 84.1,
+        "bruit": 3.16,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Faure Agencement",
+        "blocs": 1,
+        "surface": 2.5,
+        "details": [
+          {
+            "texte": "Faure Agencement",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "960e0f7d333b7b4f",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-14.jpg",
+      "nom": "savoir-faire-images-14",
+      "drapeau": "autre",
+      "largeur": 1118,
+      "hauteur": 1304,
+      "ratio": "0.86",
+      "ratio_valeur": 0.857,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 739377,
+      "transparence": false,
+      "sujet": {
+        "x": 50,
+        "y": 25,
+        "l": 20.6,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        43
+      ],
+      "cadrage_css": "60% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 1.97,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1118 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8014405c1b43a1e7",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/haut/bas"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-15.jpg",
+      "nom": "savoir-faire-images-15",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 1200,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 709332,
+      "transparence": false,
+      "sujet": {
+        "x": 34.3,
+        "y": 54.6,
+        "l": 23,
+        "h": 27.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        63
+      ],
+      "cadrage_css": "45% 63%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 30.8,
+        "bruit": 1.32,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fefafbfbfef0f7ff",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-16.jpg",
+      "nom": "savoir-faire-images-16",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 1200,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 1362691,
+      "transparence": false,
+      "sujet": {
+        "x": 34.2,
+        "y": 29.2,
+        "l": 43.8,
+        "h": 31.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        45
+      ],
+      "cadrage_css": "57% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 98.4,
+        "bruit": 2.17,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0203030646666c0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-17.webp",
+      "nom": "savoir-faire-images-17",
+      "drapeau": "autre",
+      "largeur": 1360,
+      "hauteur": 909,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 46280,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 38.2,
+        "l": 52.9,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        51
+      ],
+      "cadrage_css": "46% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 25,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ebcdcfe3efedc3e3",
+      "drapeaux": [
+        "autre",
+        "calme haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-18.webp",
+      "nom": "savoir-faire-images-18",
+      "drapeau": "autre",
+      "largeur": 1360,
+      "hauteur": 909,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 101844,
+      "transparence": false,
+      "sujet": {
+        "x": 17.6,
+        "y": 11.8,
+        "l": 77.9,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        38
+      ],
+      "cadrage_css": "63% 38%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 31.7,
+        "bruit": 0.56,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "88:0 · chi",
+        "blocs": 2,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "88:0",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "chi",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "208120212072890c",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "prestations-mesure-2.webp",
+      "nom": "prestations-mesure-2",
+      "drapeau": "autre",
+      "largeur": 1360,
+      "hauteur": 906,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 100304,
+      "transparence": false,
+      "sujet": {
+        "x": 46.2,
+        "y": 19,
+        "l": 20.5,
+        "h": 36.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        45
+      ],
+      "cadrage_css": "59% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 0.56,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "8dcbcbefe68ba7e3",
+      "drapeaux": [
+        "autre",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-19.webp",
+      "nom": "savoir-faire-images-19",
+      "drapeau": "autre",
+      "largeur": 1360,
+      "hauteur": 906,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 111598,
+      "transparence": false,
+      "sujet": {
+        "x": 43.4,
+        "y": 30.5,
+        "l": 25.2,
+        "h": 31.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        51
+      ],
+      "cadrage_css": "55% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 29.3,
+        "bruit": 0.83,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "44ccc4c4444c1e36",
+      "drapeaux": [
+        "autre",
+        "calme gauche/haut"
+      ]
+    },
+    {
+      "fichier": "cuisiniste-mesure-3.png",
+      "nom": "cuisiniste-mesure-3",
+      "drapeau": "autre",
+      "largeur": 1544,
+      "hauteur": 700,
+      "ratio": "2.21",
+      "ratio_valeur": 2.206,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 12251,
+      "transparence": true,
+      "sujet": {
+        "x": 43,
+        "y": 21,
+        "l": 47.8,
+        "h": 22.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        38
+      ],
+      "cadrage_css": "57% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 51,
+        "bruit": 0,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Trustpilot",
+        "blocs": 1,
+        "surface": 19,
+        "details": [
+          {
+            "texte": "Trustpilot",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6971514367515549",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "ils-parlent-nous.png",
+      "nom": "ils-parlent-nous",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 1853152,
+      "transparence": false,
+      "sujet": {
+        "x": 7.3,
+        "y": 6.2,
+        "l": 90.5,
+        "h": 77.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        48
+      ],
+      "cadrage_css": "45% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 90.1,
+        "bruit": 2.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Faure Agencement",
+        "blocs": 1,
+        "surface": 3.5,
+        "details": [
+          {
+            "texte": "Faure Agencement",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "96070f7d3939491f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-20.png",
+      "nom": "savoir-faire-images-20",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 2503880,
+      "transparence": false,
+      "sujet": {
+        "x": 12.2,
+        "y": 4.1,
+        "l": 65.6,
+        "h": 89.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        56
+      ],
+      "cadrage_css": "51% 56%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 164.3,
+        "bruit": 3.85,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "91c9c16461b8f078",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "prestations-mesure-3.jpg",
+      "nom": "prestations-mesure-3",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 800,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 124985,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 2.9,
+        "l": 67.6,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        42
+      ],
+      "cadrage_css": "53% 42%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 63.9,
+        "bruit": 0.84,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "leboncoin",
+        "blocs": 1,
+        "surface": 0.5,
+        "details": [
+          {
+            "texte": "leboncoin",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a08062623a3a9393",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "savoir-faire-images-21.jpg",
+      "nom": "savoir-faire-images-21",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 738,
+      "ratio": "16:10",
+      "ratio_valeur": 1.626,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 524058,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 39.7,
+        "l": 47.1,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        51
+      ],
+      "cadrage_css": "46% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 60.8,
+        "bruit": 0.94,
+        "compression": 1.23,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "80eb62623a38c393",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "ils-parlent-nous-2.png",
+      "nom": "ils-parlent-nous-2",
+      "drapeau": "autre",
+      "largeur": 681,
+      "hauteur": 676,
+      "ratio": "1:1",
+      "ratio_valeur": 1.007,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 46137,
+      "transparence": true,
+      "sujet": {
+        "x": 10.6,
+        "y": 39.6,
+        "l": 53.6,
+        "h": 22.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        48
+      ],
+      "cadrage_css": "39% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 21.8,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "681 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Forbes",
+        "blocs": 1,
+        "surface": 17.7,
+        "details": [
+          {
+            "texte": "Forbes",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "006891b2aa550a00",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "ils-parlent-nous-3.png",
+      "nom": "ils-parlent-nous-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 29070,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 26.1,
+        "l": 81.6,
+        "h": 42.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        46
+      ],
+      "cadrage_css": "36% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 58.6,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LYON · CAPITALE",
+        "blocs": 2,
+        "surface": 37.8,
+        "details": [
+          {
+            "texte": "LYON",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CAPITALE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1125998666390c80",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    }
+  ]
+}

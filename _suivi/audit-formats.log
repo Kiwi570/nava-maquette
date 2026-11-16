@@ -1,0 +1,21 @@
+… fichiers
+  fait en 0 s
+… mesures
+  14/234
+  38/234
+  63/234
+  88/234
+  113/234
+  135/234
+  162/234
+  182/234
+  206/234
+  fait en 300 s
+… mesures:balayage
+  fait en 46 s
+… ecran
+  fait en 13 s
+
+Échecs : 4 · À regarder : 1 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/,/404,/showroom --seulement=fichiers,mesures
+Rapport : /home/claude/nava/_audit/rapport/rapport.md (passe 20261116-185453-complet-partiel)
